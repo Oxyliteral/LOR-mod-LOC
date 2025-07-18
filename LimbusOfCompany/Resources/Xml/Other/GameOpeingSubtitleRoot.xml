@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GameOpeingSubtitleRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<subtitle id="1" display="2.5" duration="5"></subtitle>
+	<subtitle id="2" display="5" duration="7"></subtitle>
+	<subtitle id="3" display="7" duration="9"></subtitle>
+	<subtitle id="-1" display="11" duration="13"></subtitle>
+	<subtitle id="4" display="15" duration="17"></subtitle>
+	<subtitle id="-2" display="18" duration="22"></subtitle>
+	<subtitle id="5" display="22" duration="24"></subtitle>
+	<subtitle id="-3" display="24" duration="27"></subtitle>
+	<subtitle id="6" display="27" duration="30"></subtitle>
+	<subtitle id="-4" display="30" duration="34"></subtitle>
+	<subtitle id="7" display="34" duration="36"></subtitle>
+	<subtitle id="-5" display="34" duration="36"></subtitle>
+	<subtitle id="8" display="36" duration="38"></subtitle>
+	<subtitle id="-6" display="36" duration="38"></subtitle>
+	<subtitle id="9" display="40" duration="41"></subtitle>
+	<subtitle id="10" display="41" duration="43"></subtitle>
+	<subtitle id="-7" display="41" duration="43"></subtitle>
+	<subtitle id="11" display="43" duration="45"></subtitle>
+	<subtitle id="-8" display="43" duration="45"></subtitle>
+	<subtitle id="12" display="45" duration="49"></subtitle>
+	<subtitle id="-9" display="45" duration="49"></subtitle>
+	<subtitle id="13" display="50" duration="52"></subtitle>
+	<subtitle id="-10" display="50" duration="52"></subtitle>
+	<subtitle id="14" display="52" duration="55"></subtitle>
+	<subtitle id="-11" display="52" duration="55"></subtitle>
+	<subtitle id="15" display="55.5" duration="56"></subtitle>
+	<subtitle id="-12" display="56" duration="57"></subtitle>
+	<subtitle id="16" display="57" duration="59"></subtitle>
+	<subtitle id="-13" display="57" duration="59"></subtitle>
+	<subtitle id="17" display="59" duration="61"></subtitle>
+	<subtitle id="-14" display="59" duration="61"></subtitle>
+	<subtitle id="18" display="61" duration="69"></subtitle>
+	<subtitle id="-15" display="61" duration="65"></subtitle>
+	<subtitle id="19" display="65" duration="68"></subtitle>
+	<subtitle id="-16" display="65" duration="68"></subtitle>
+	<subtitle id="-17" display="68" duration="69"></subtitle>
+	<subtitle id="20" display="69" duration="72"></subtitle>
+</GameOpeingSubtitleRoot>

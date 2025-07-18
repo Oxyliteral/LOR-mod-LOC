@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<EnemyUnitClassRoot>
+  <Enemy ID="1111">
+    <NameID>1111</NameID>
+    <MinHeight>165</MinHeight>
+    <MaxHeight>165</MaxHeight>
+    <BookId>1111</BookId>
+    <DeckId>1111</DeckId>
+  </Enemy>
+  <Enemy ID="1112">
+    <NameID>1112</NameID>
+    <MinHeight>165</MinHeight>
+    <MaxHeight>165</MaxHeight>
+    <BookId>1112</BookId>
+    <DeckId>1112</DeckId>
+  </Enemy>
+
+</EnemyUnitClassRoot>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LimbusStageListXml>
+	<LimbusStageClassInfoXml id="110001">
+		<Chapter>1</Chapter>
+		<Story Condition="Start">1_1_1</Story>
+		<Story Condition="End">1_1_2</Story>
+		<Position x="-500" y="200"/>
+	</LimbusStageClassInfoXml>
+	<LimbusStageClassInfoXml id="110002">
+		<Chapter>1</Chapter>
+		<Story Condition="Start">1_1_3</Story>
+		<Story Condition="End">1_1_4</Story>
+		<Condition>
+			<Stage>110001</Stage>
+		</Condition>
+		<Position inheritstage="110001"/>
+	</LimbusStageClassInfoXml>
+	
+	<LimbusStageClassInfoXml id="110011">
+		<Chapter>1</Chapter>
+		<Story Condition="Start">0_0_0</Story>
+		<Condition>
+			<Stage>110002</Stage>
+		</Condition>
+		<Position x="500" y="200"/>
+	</LimbusStageClassInfoXml>
+
+	<LimbusStageClassInfoXml id="110021">
+		<Wave>
+			<Formation>2</Formation>
+			<Unit>200001</Unit>
+		</Wave>
+		<FloorNum>1</FloorNum>
+		<Invitation Combine="BookRecipe">
+			<Book>31</Book>
+		</Invitation>
+		<Chapter>1</Chapter>
+		<StoryType>Rats</StoryType>
+		<Story Condition="Start">1_2_1</Story>
+		<Condition>
+			<Stage>110011</Stage>
+		</Condition>
+		<Position x="0" y="200"/>
+		<Music priorityenemy="2">
+			<enemy1 method="StartsWith" value="Canto I Battle"/>
+			<enemy1 method="EndsWith" value="1"/>
+		</Music>
+	</LimbusStageClassInfoXml>
+	<LimbusStageClassInfoXml id="110022">
+		<Wave>
+			<Formation>2</Formation>
+			<Unit>200002</Unit>
+			<Unit>200003</Unit>
+		</Wave>
+		<FloorNum>1</FloorNum>
+		<Invitation Combine="BookRecipe">
+			<Book>31</Book>
+		</Invitation>
+		<Chapter>1</Chapter>
+		<StoryType>Rats</StoryType>
+		<Story Condition="End">1_2_2</Story>
+		<Condition>
+			<Stage>110021</Stage>
+		</Condition>
+		<Position inheritstage="110021"/>
+		<Music priorityenemy="2">
+			<enemy1 method="StartsWith" value="Canto I Battle"/>
+			<enemy1 method="EndsWith" value="2"/>
+		</Music>
+	</LimbusStageClassInfoXml>
+
+</LimbusStageListXml>

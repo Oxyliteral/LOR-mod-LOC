@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LimbusStageListXml>
+	<LimbusStageClassInfoXml id ="1111">
+		<Wave>
+			<Unit>1111</Unit>
+			<Unit>1112</Unit>
+		</Wave>
+		<FloorNum>1</FloorNum>
+		<Chapter>8</Chapter>
+		<StoryType>Limbus_Gregor</StoryType>
+		<Sprite icon="Sinner_Gregor" r="0" g="0" b="0"/>
+		<Position x="0" y="0"/>
+		<Music priorityenemy="2">
+			<enemy1 method="StartsWith" value="Canto I Battle"/>
+			<enemy1 method="EndsWith" value="1"/>
+			<enemy2 method="StartsWith" value="Canto I Battle"/>
+			<enemy2 method="EndsWith" value="2"/>
+		</Music>
+	</LimbusStageClassInfoXml>
+</LimbusStageListXml>

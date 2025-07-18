@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<BookXmlRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Book ID="1111">
+		<TextId>1111</TextId>
+		<Option>Basic</Option>
+		<EquipEffect>
+			<HP>999</HP>
+			<Break>100</Break>
+			<SpeedMin>15</SpeedMin>
+			<Speed>16</Speed>
+			<SResist>Weak</SResist>
+			<PResist>Weak</PResist>
+			<HResist>Weak</HResist>
+			<SBResist>Weak</SBResist>
+			<PBResist>Weak</PBResist>
+			<HBResist>Weak</HBResist>
+			<Passive>1111</Passive>
+		</EquipEffect>
+		<Rarity>Unique</Rarity>
+		<CharacterSkin>BlackSilenceMask</CharacterSkin>
+	</Book>
+	<Book ID="1112">
+		<TextId>1112</TextId>
+		<Option>Basic</Option>
+		<EquipEffect>
+			<HP>999</HP>
+			<Break>100</Break>
+			<SpeedMin>17</SpeedMin>
+			<Speed>17</Speed>
+			<SResist>Weak</SResist>
+			<PResist>Weak</PResist>
+			<HResist>Weak</HResist>
+			<SBResist>Weak</SBResist>
+			<PBResist>Weak</PBResist>
+			<HBResist>Weak</HBResist>
+			<Passive>1112</Passive>
+		</EquipEffect>
+		<Rarity>Unique</Rarity>
+		<CharacterSkin>AngelicaPhantom</CharacterSkin>
+	</Book>
+</BookXmlRoot>
