@@ -1,4 +1,4 @@
-Library of Ruina mod (WIP)
+Library of Ruina mod - Limbus Of Company (WIP)
 
 Goal is to rework the game and add Limbus Company content.
 
