@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<PassiveDescRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PassiveDesc ID="20">
+    <Name>A Grade 9 Fixer</Name>
+    <Desc>Assistant Librarians become unavailable. Key Pages' HP and Stagger Resist are multiplied for each Assistant Librarian.</Desc>
+  </PassiveDesc>
+
+  <PassiveDesc ID="200001">
+    <Name>Scrounge Up</Name>
+    <Desc>At the start of each Scene, heal 5% of max HP if the character is not Staggered.</Desc>
+  </PassiveDesc>
+
+  <PassiveDesc ID="201003">
+    <Name>Grade 9 Prowess</Name>
+    <Desc>Before dealing damage with dice, give it +1 Stagger damage.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="200004">
+    <Name>Grade 9 Prowess</Name>
+    <Desc>At the start of the Scene, give 1 Damage Up and Stagger Up to self this Scene.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="201002">
+    <Name>Grade 9 Prowess</Name>
+    <Desc>Before dealing damage with dice, give it +1 damage.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="200005">
+    <Name>Augmented Body</Name>
+    <Desc>Upon using a page, give the first Block dice on it +1 power.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="200006">
+    <Name>Yun's Hunch</Name>
+    <Desc>At the start of each Scene, gain 1 Protection for the Scene.</Desc>
+  </PassiveDesc>
+
+  <PassiveDesc ID="200007">
+    <Name>What Robots Need</Name>
+    <Desc>Before rolling dice, give it power equal to the character's Paralysis.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="200008">
+    <Name>Electric Hunger</Name>
+    <Desc>Upon being inflicted with Paralysis through Combat Page effects: inflict 1 Paralysis on an enemy and another ally.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="200009">
+    <Name>Electric Shock</Name>
+    <Desc>At the start of each Scene, reduce the cost of a page in hand by 1 for the Scene if the character has Paralysis (Prioritizes high-cost pages).</Desc>
+  </PassiveDesc>
+
+  <PassiveDesc ID="200010">
+    <Name>Hook For Life</Name>
+    <Desc>Upon using a page, gain 1 Strength for the Scene if it has only one die.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="200011">
+    <Name>Bionic For Speed</Name>
+    <Desc>Before rolling Counter dice, give it +2 power if the target has slower Speed.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="200012">
+    <Name>Eye For Weakness</Name>
+    <Desc>Upon using a page, gain 1 Damage Up if it has only one Offensive die; Gain 1 additional Damage Up if this Passive triggered for the last used page.</Desc>
+  </PassiveDesc>
+
+</PassiveDescRoot>

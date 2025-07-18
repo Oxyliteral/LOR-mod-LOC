@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PassiveDescRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<PassiveDesc ID="1000">
+		<Name>Bloodbath</Name>
+		<Desc>At the start of the Act, gain one of the following Abnormality Pages: Blood, Scars, or Pale Hands.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="1001">
+		<Name>Auspicious Auspices</Name>
+		<Desc>At the start of each Scene, gain Trepidation for the Scene.
+At the end of each Scene, gain Fragile equal to current Fragile.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="100">
+		<Name>Scorched Girl</Name>
+		<Desc>At the start of the Act, gain one of the following Abnormality Pages: Ashes, Footfalls, or Matchlight.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="101">
+		<Name>Last Match Flame</Name>
+		<Desc>Whenever an ally dies, all enemies are purged of Burn and recover 50% of max HP.
+At the end of each Scene, if there are no allies, die.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="200">
+		<Name>Forsaken Murderer</Name>
+		<Desc>At the start of the Act, gain one of the following Abnormality Pages: Metallic Ringing, Chained Wrath, or Violence.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="201">
+		<Name>Gratuitous Rebound</Name>
+		<Desc>Upon winning a clash, take damage equal to the roll value.
+After dealing damage with dice, take damage equal to damage dealt.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="300">
+		<Name>Today's Shy Look</Name>
+		<Desc>Dice roll lower and lose Power when the current face is happy. Dice roll higher and gain Power when the current face is angry.
+Upon winning a clash, the current face becomes happier. Upon losing a clash, the current face becomes angrier.
+At the start of the Act, gain one of the following Abnormality Pages: Look of the Day, Social Distancing, or Shyness.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="400">
+		<Name>Fragment of the Universe</Name>
+		<Desc>At the start of the Act, gain one of the following Abnormality Pages: Echoes from the Beyond, Tentacles, or Incomprehensible.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="401">
+		<Name>Enlightenment</Name>
+		<Desc>Upon losing a clash, take Stagger damage equal to 40% of max Stagger Resist and gain 1-2 Fragile.</Desc>
+	</PassiveDesc>
+</PassiveDescRoot>
