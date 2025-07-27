@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BattleCardAbilityDescRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<BattleCardAbility ID="atk">
+		<Desc>[On Hit]</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="pl">
+		<Desc>[On Clash Lose]</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="pw">
+		<Desc>[On Clash Win]</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="inflict">
+		<Desc> Inflict </Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="give">
+		<Desc> Give </Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="bleeding">
+		<Desc> {Bleeding}</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="self">
+		<Desc> to self</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="now">
+		<Desc> this Scene</Desc>
+	</BattleCardAbility>
+</BattleCardAbilityDescRoot>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PassiveXmlRoot>
+	<Passive ID="1111">
+		<Rarity>Unique</Rarity>
+		<Cost>8</Cost>
+		<Script>test_roland</Script>
+	</Passive>
+	<Passive ID="1112">
+		<Rarity>Unique</Rarity>
+		<Cost>8</Cost>
+		<Script>test_angelica</Script>
+	</Passive>
+	<Passive ID="200000">
+		<Rarity>Unique</Rarity>
+		<Cost>0</Cost>
+		<Script>limbus_rule</Script>
+	</Passive>
+	<Passive ID="210001">
+		<Rarity>Unique</Rarity>
+		<Cost>0</Cost>
+		<Script>limbus_lcb_gregor</Script>
+	</Passive>
+	<Passive ID="210002">
+		<Rarity>Unique</Rarity>
+		<Cost>0</Cost>
+		<Script>limbus_lcb_gregor</Script>
+	</Passive>
+</PassiveXmlRoot>

@@ -1,0 +1,11 @@
+<EnemyUnitClassRoot>
+	<Enemy ID="9100101">
+		<NameID>9100101</NameID>
+		<MinHeight>220</MinHeight>
+		<MaxHeight>220</MaxHeight>
+		<Gender>Creature</Gender>
+		<BookId>9100101</BookId>
+		<DeckId>9100101</DeckId>
+	</Enemy>
+</EnemyUnitClassRoot>
+

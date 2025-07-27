@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<PassiveDescRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PassiveDesc ID="210001">
+    <Name>Rationing</Name>
+    <Desc>Upon giving Damage Up, Stagger Damage Up, Protection, or Stagger Protection through Combat Pages: apply +1 additional stack.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="210002">
+    <Name>I Can Cook Anything</Name>
+    <Desc>Upon inflicting Bleed, Bind, Fragile, or Stagger Fragile through Combat Pages: apply +1 additional stack.</Desc>
+  </PassiveDesc>
+
+  <PassiveDesc ID="210003">
+    <Name>Latent Talent</Name>
+    <Desc>Before rolling dice, give it +1 power if the character has Status Effects.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="210004">
+    <Name>Flaming Bat!</Name>
+    <Desc>Upon losing a clash or upon a successful attack, inflict 1 Burn for the Scene.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="210005">
+    <Name>Set Ablaze</Name>
+    <Desc>Upon Staggering an enemy, double the target's current Burn.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="210006">
+    <Name>Fretful Vengeance</Name>
+    <Desc>At the start of each Scene, give Duel - Lulu to both teams if they have only one character, then destroy this Passive.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="220001">
+    <Name>Calm Determination</Name>
+    <Desc>Upon giving Strength or Endurance to self through Combat Pages: give other allies 1 Damage Up or Stagger Damage Up.</Desc>
+  </PassiveDesc>
+</PassiveDescRoot>

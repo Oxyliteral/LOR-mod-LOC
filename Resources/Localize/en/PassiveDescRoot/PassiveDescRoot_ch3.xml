@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PassiveDescRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PassiveDesc ID="221001">
+    <Name>Cohesion</Name>
+    <Desc>At the start of each Scene, gain 1 Protection and Stagger Protection if no allies are dead; Gain 1 Fragile and Stagger Fragile for each Staggered ally instead if an ally is Staggered.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="220002">
+    <Name>To Overcome Fear</Name>
+    <Desc>Upon being given Status Effects through Combat Pages: Before rolling the character's next die, give it power equal to the amount of Status Effects gained.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="220003">
+    <Name>To Overcome Fright</Name>
+    <Desc>Upon giving Strength to self through Combat Pages: gain 1 Endurance.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="220004">
+    <Name>To Overcome Failure</Name>
+    <Desc>Upon losing a clash, give dice on the page +1 power.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="220005">
+    <Name>Your Shield</Name>
+    <Desc>At the start of each Scene, gain 1 Minimum Offense Up and Minimum Defense Up if there is another ally with Your Shield.
+Upon taking damage from an attack, other allies with Your Shield recover 1 Stagger Resist.</Desc>
+  </PassiveDesc>
+</PassiveDescRoot>

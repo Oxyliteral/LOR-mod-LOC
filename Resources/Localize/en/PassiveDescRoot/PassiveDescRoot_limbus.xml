@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<PassiveDescRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PassiveDesc ID="200000">
+    <Name>Change of Rules</Name>
+    <Desc>After rolling a die, give all dice on the Page roll value equal to its roll value.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="210001">
+    <Name>LCB Sinner Gregor</Name>
+    <Desc>Uncontrollable.</Desc>
+  </PassiveDesc>
+  <PassiveDesc ID="210002">
+    <Name>LCB Member Yuri</Name>
+    <Desc>Uncontrollable.</Desc>
+  </PassiveDesc>
+</PassiveDescRoot>

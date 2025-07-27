@@ -1,0 +1,1598 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbnormalityCardsRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Sephirah SephirahType="Hod">
+    <AbnormalityCard ID="ShyLookToday_Face">
+      <Abnormality>Today’s Shy Look</Abnormality>
+      <CardName>Look of the Day</CardName>
+      <AbilityDesc>[Single Ally]
+The librarian's face constantly shifts.
+Dice gain different amounts of Power depending on the current face. (Min. -2, Max. +2)
+Anger is fierce.</AbilityDesc>
+      <FlaborText>One sunny day, just like that day they sincerely dried the laundry, they dried their own skin.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">I’m just shy, that’s all. Just shy…</Dialogue>
+        <Dialogue ID="2">A sad look doesn’t fit the City.</Dialogue>
+        <Dialogue ID="3">It’s very important to express oneself… I guess it is.</Dialogue>
+        <Dialogue ID="4">Do you know what kind of face you should be making?</Dialogue>
+        <Dialogue ID="5">Put a big smile on your face, like mine. It’s not so hard, is it?</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="ShyLookToday_Shy">
+      <Abnormality>Today’s Shy Look</Abnormality>
+      <CardName>Social Distancing</CardName>
+      <AbilityDesc>[Single Ally]
+Block dice gain 1-2 Power.
+Deal +2-7 Stagger damage on a deflect.</AbilityDesc>
+      <FlaborText>If one tries to look at the face behind the skin, the result will not be pretty. The space behind their skin is the only personal space they have left. Leaving it uninvaded is the last bit of generosity the City can offer.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">Please don’t look at what’s behind this. It’s the least you can do…</Dialogue>
+        <Dialogue ID="2">We need to keep an appropriate distance. Far enough for everyone to be comfortable.</Dialogue>
+        <Dialogue ID="3">There’s a line between us, around here. Please stay on the other side of this line, at the very least.</Dialogue>
+        <Dialogue ID="4">Don’t come any closer. Don’t cross my line…</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="ShyLookToday_Normalface">
+      <Abnormality>Today’s Shy Look</Abnormality>
+      <CardName>Shyness</CardName>
+      <AbilityDesc>[Single Ally]
+When using a page, all Block dice on that page gain Power equal to the number of Defensive dice on said page.</AbilityDesc>
+      <FlaborText>The inability to show one’s face is perhaps a form of shyness. When throbbing emotions surge up from time to time, it’s best to simply cover the face.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">I’m just shy, that’s all. Just shy…</Dialogue>
+        <Dialogue ID="2">Sorry. You’ll get used to it in time…</Dialogue>
+        <Dialogue ID="3">Maybe it’s to protect myself.</Dialogue>
+        <Dialogue ID="4">Sometimes, I’m choked with feelings I can’t describe.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="RedShoes_Kirakira">
+      <Abnormality>The Red Shoes</Abnormality>
+      <CardName>Glitter</CardName>
+      <AbilityDesc>[Single Ally]
+At the start of the Scene, each enemy is Allured at a 50% chance.
+Allured enemies prioritize this librarian as a target, and deal +2-4 damage with attacks.
+Gain 1-2 Power in clashes against Allured enemies.</AbilityDesc>
+      <FlaborText>The shoes were colorless. 
+They will soon turn red.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">The red is so vivid, isn’t it simply dazzling?</Dialogue>
+        <Dialogue ID="2">Once you get rid of that person… The shoes are all yours.</Dialogue>
+        <Dialogue ID="3">It’s fine. It won’t be hard to take the shoes off their feet if you chop at their ankles.</Dialogue>
+        <Dialogue ID="4">Don’t you want to be the one shining the brightest here?</Dialogue>
+        <Dialogue ID="5">This glamour should be yours alone.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="RedShoes_Desire">
+      <Abnormality>The Red Shoes</Abnormality>
+      <CardName>Obsession</CardName>
+      <AbilityDesc>[All Characters]
+All characters apply twice as many stacks of Bleed.</AbilityDesc>
+      <FlaborText>I’ll break your legs, then you won’t be able to dance ever again.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">I should be the one in the spotlight!</Dialogue>
+        <Dialogue ID="2">Only I should perform an elegant dance…</Dialogue>
+        <Dialogue ID="3">I’ll make you unable to dance forever.</Dialogue>
+        <Dialogue ID="4">If I rendered those legs unusable, could I take the position of the protagonist?</Dialogue>
+        <Dialogue ID="5">Show me your one last dance.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="RedShoes_Cut">
+      <Abnormality>The Red Shoes</Abnormality>
+      <CardName>Axe</CardName>
+      <AbilityDesc>[Single Ally]
+Slash dice gain 1-3 Power.
+Take 2-5 Stagger damage when a Slash attack does not connect. (Excludes Mass Attacks)</AbilityDesc>
+      <FlaborText>At some point, &lt;Redacted&gt; was wearing the shoes, grinning from ear to ear. It was uh, well it was quite strange. That wasn’t a smile. It was…</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">Hone the axe over and over… So that it can chop them off in one swing.</Dialogue>
+        <Dialogue ID="2">The desires you’ve amassed… Unravel the emotions you’ve concealed and repressed…</Dialogue>
+        <Dialogue ID="3">The sanguine red axe… Nothing could be more beautiful.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="SpiderBud_Cocoon">
+      <Abnormality>Spider Bud</Abnormality>
+      <CardName>Cocoon</CardName>
+      <AbilityDesc>[Single Ally]
+On hit, if the dice rolled maximum value: inflict 1-2 Paralysis, Bind, and Fragile next Scene.(Excludes Mass Attacks)</AbilityDesc>
+      <FlaborText>Unsurprisingly, not a single employee volunteered to retrieve the corpse of their cocooned colleague.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">What careless fool stepped on my baby?</Dialogue>
+        <Dialogue ID="2">Few realized that the food inside my cocoons were not dead.</Dialogue>
+        <Dialogue ID="3">Spider’s poison is unique, it prevents its victim from dying too quickly.</Dialogue>
+        <Dialogue ID="4">Watch your step. If you didn’t, then watch your head.</Dialogue>
+        <Dialogue ID="5">No one dared to save my hunt.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="SpiderBud_BabyAtk">
+      <Abnormality>Spider Bud</Abnormality>
+      <CardName>Meal</CardName>
+      <AbilityDesc>[Single Ally]
+On hit against a Staggered enemy, all allies recover 2-4 HP.(Excludes Mass Attacks)</AbilityDesc>
+      <FlaborText>Peter was dragged to the ceiling in only a moment. The cocooned employee hanging off the ceiling of the Containment Unit will be a healthy meal for the spider’s offspring.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">Rejoice. You will bring joy to my offspring.</Dialogue>
+        <Dialogue ID="2">Growing children are always hungry.</Dialogue>
+        <Dialogue ID="3">It’s all for our survival, it couldn’t be helped.</Dialogue>
+        <Dialogue ID="4">It’s relieving to have plenty of food.</Dialogue>
+        <Dialogue ID="5">Well now, we have a tasty meal ready for consumption… Come, children.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="SpiderBud_Dinner">
+      <Abnormality>Spider Bud</Abnormality>
+      <CardName>Alertness</CardName>
+      <AbilityDesc>[Single Ally]
+Enemies lose 1 Power in clashes against the selected librarian.
+Upon winning a clash, inflict 1 Bind and Fragile next Scene at a 50% chance.</AbilityDesc>
+      <FlaborText>The eyes shone in the dark, searching for prey to feed to its spiderlings.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">To clearly see in the darkness…</Dialogue>
+        <Dialogue ID="2">It would be troubling to miss my prey.</Dialogue>
+        <Dialogue ID="3">I can never take my eyes off them. You never know what’ll happen to my offspring…</Dialogue>
+        <Dialogue ID="4">I shall be precise this time…</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="Laetitia_Present">
+      <Abnormality>Laetitia</Abnormality>
+      <CardName>Surprise Gift</CardName>
+      <AbilityDesc>[Single Ally]
+The first opponent to clash against the selected librarian gains the 'Giftee' status.
+If the 'Giftee' clashes against a character other than the selected librarian, the 'Gift' explodes at a 40% chance, dealing 2-7 damage and inflicting 2 Bleed next Scene.
+When the 'Giftee' dies, a new 'Gift' can be given.</AbilityDesc>
+      <FlaborText>And when the kid meets someone she likes, she will give them a gift made all by herself. The gift's content is a secret though!</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">When you open the gift, you’ll be surprised, like WHOA!</Dialogue>
+        <Dialogue ID="2">What’s inside the gift? That’s a secret! It’s boring to spoil it.</Dialogue>
+        <Dialogue ID="3">It’s a heartfelt gift I made myself. I want you to take it!</Dialogue>
+        <Dialogue ID="4">Whoops… There goes the secret of the gift.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="Laetitia_HeartGift">
+      <Abnormality>Laetitia</Abnormality>
+      <CardName>Funny Prank</CardName>
+      <AbilityDesc>[Single Ally]
+The first die of any Combat Page the librarian plays will always roll either the maximum or minimum value.
+Take 2-7 damage if it rolled the minimum value.</AbilityDesc>
+      <FlaborText>So this little lady has made a decision! To stay here and never leave until laughter is restored to this place!</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">Play with me! Join my friends and laugh with us.</Dialogue>
+        <Dialogue ID="2">How was my prank? It was fun, wasn’t it? Your face says so!</Dialogue>
+        <Dialogue ID="3">I don’t hear any laughter… They all look sad.</Dialogue>
+        <Dialogue ID="4">I want you to be pleased with my pranks!</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="Laetitia_Friend">
+      <Abnormality>Laetitia</Abnormality>
+      <CardName>Friend</CardName>
+      <AbilityDesc>[Single Ally]
+At the start of the Scene, sneak a 'friend' into one of the Combat Pages in hand. (Excludes [On Play] pages)
+Does not activate when there's already a page with a 'friend' in hand.
+The page with the 'friend' gains 2-4 Power.
+However, if the page is not used within 2 Scenes, it exhausts, dealing 2-7 damage to the librarian.</AbilityDesc>
+      <FlaborText>She was so sad that she had to leave her dear friends behind, so she came up with a brilliant idea!</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">I couldn’t leave my dear friends behind… So I came up with a brilliant idea!</Dialogue>
+        <Dialogue ID="2">Don’t you worry~ Only meanies hurt friends.</Dialogue>
+        <Dialogue ID="3">This place will get livelier the more friends I have!</Dialogue>
+        <Dialogue ID="4">I hope to find lots of friends here too~</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+      <AbnormalityCard ID="BlackSwan_Feather">
+      <Abnormality>Dream of a Black Swan</Abnormality>
+      <CardName>Gooey Waste</CardName>
+      <AbilityDesc>[Single Ally]
+Upon winning a clash, inflict 1 Bind, Fragile, Bleed and Paralysis to all enemies next Scene. (Twice per Scene)</AbilityDesc>
+      <FlaborText>Elijah fell to her knees and finally started to puke up the thing everyone else was vomiting.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">The lake ripples gently. As if a number of swans just took flight.</Dialogue>
+        <Dialogue ID="2">I was faced with reality. The things swelling up inside spilt right out.</Dialogue>
+        <Dialogue ID="3">I began to puke up the thing everyone else was vomiting.</Dialogue>
+        <Dialogue ID="4">As if my lungs were stabbed, it bursts forth as I breathe.</Dialogue>
+        <Dialogue ID="5">I threw up a mixture of blood and green waste.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="BlackSwan_Umbrella">
+      <Abnormality>Dream of a Black Swan</Abnormality>
+      <CardName>Well-worn Parasol</CardName>
+      <AbilityDesc>[Single Ally]
+Gain 2-3 Speed.
+When hit, nullify the damage at a 30% chance, and return double the amount back to the attacker as Stagger damage.</AbilityDesc>
+      <FlaborText>Believing that it would turn white, the black swan wanted to lift the curse by weaving together nettles. All that was left is a worn parasol it once treasured.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">What happens when the black swan wakes up from dreaming of a white swan?</Dialogue>
+        <Dialogue ID="2">All that I had left was the parasol and this brooch.</Dialogue>
+        <Dialogue ID="3">The sun was too bright, I had to shade it off.</Dialogue>
+        <Dialogue ID="4">I yearned to have a dream I would never wake up from, but reality was cruel as ever.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="BlackSwan_Family">
+      <Abnormality>Dream of a Black Swan</Abnormality>
+      <CardName>Loving Family</CardName>
+      <AbilityDesc>[Single Ally]
+Gain 6 'Nettle Clothing', which grants Protection equal to its amount each Scene. A stack of 'Nettle Clothing' is lost at the end of each Scene.</AbilityDesc>
+      <FlaborText>She began to look for her brothers. Her family who needed to wear the nettle clothing to be free from the curse. Ones whom she shared happy dreams with.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">Although they didn’t have anything to pass onto her, they had honesty and diligence as their most valuable treasure.</Dialogue>
+        <Dialogue ID="2">I believed… that there had to be a way for everyone to be happy.</Dialogue>
+        <Dialogue ID="3">I thought if I just worked a little harder, things would work themselves out.</Dialogue>
+        <Dialogue ID="4">My family, who should have been freed by wearing the nettle clothing…</Dialogue>
+        <Dialogue ID="5">We shared happy dreams with each other.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+  </Sephirah>
+  
+  
+  <Sephirah SephirahType="Netzach">
+    <AbnormalityCard ID="UniverseZogak_Echo">
+      <Abnormality>Fragment of the Universe</Abnormality>
+      <CardName>Echoes from the Beyond</CardName>
+      <AbilityDesc>[All Characters]
+Deal 5-10 Stagger damage to all enemies. All allies recover 5-10 Stagger Resist.</AbilityDesc>
+      <FlaborText>You see a song in front of you. It’s approaching, becoming more colorful by the second.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">Sing. Perform. Human. Song. Ear. Listen.</Dialogue>
+        <Dialogue ID="2">Sings. Nerves. Focus. Moment. See. Exist.</Dialogue>
+        <Dialogue ID="3">Eye. Shut. Feel. Grandeur. Come. Happiness. Beyond.</Dialogue>
+        <Dialogue ID="4">Understand. Perfection. Moment. Know. Knowledge. Our. Meaning. Deliver.</Dialogue>
+        <Dialogue ID="5">Do. Together. Chant. Song. Enlightenment.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="UniverseZogak_Tentacle">
+      <Abnormality>Fragment of the Universe</Abnormality>
+      <CardName>Tentacles</CardName>
+      <AbilityDesc>[Single Ally]
+On a successful Pierce attack, reduce the max Stagger Resist of the target by 5%. (Up to 50%, Excludes Mass Attacks)</AbilityDesc>
+      <FlaborText>The moment its tentacle penetrates you, it’ll drain all the interest for the life you’re currently living out of you.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">Negative. Attack. Come. Help. Give.</Dialogue>
+        <Dialogue ID="2">Knowledge. Our. Simple. Give. Relay. None.</Dialogue>
+        <Dialogue ID="3">Human. Attack. I. Protect. Along. Attack.</Dialogue>
+        <Dialogue ID="4">Attack. Swift. Impale.</Dialogue>
+        <Dialogue ID="5">Human. Attack. Soul. Disappear. Gone. Want.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="UniverseZogak_Sing">
+      <Abnormality>Fragment of the Universe</Abnormality>
+      <CardName>Incomprehensible</CardName>
+      <AbilityDesc>[Single Ally]
+On a one-sided attack, inflict 1 Feeble and Disarm next Scene at a 50% chance. 
+The likelihood increases by 10% for each successful attack. (Three times per engagement, Excludes Mass Attacks)</AbilityDesc>
+      <FlaborText>Eventually, he succeeded in entering the domain of the ‘Fragment of the Universe’. However, it was obvious that his small brain couldn’t withstand it.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">Understand. You. Together. Human. I.</Dialogue>
+        <Dialogue ID="2">Want. Understand. I. You. Study.</Dialogue>
+        <Dialogue ID="3">I. Tell. Story. You. Understand. Try.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="ChildofGalaxy_Tear">
+      <Abnormality>Child of the Galaxy</Abnormality>
+      <CardName>Teardrop</CardName>
+      <AbilityDesc>[Single Ally]
+Dice Power +1. On death, all characters take 50% of this character's Max HP as damage. (Max. 60)</AbilityDesc>
+      <FlaborText>I hear his whispers and breath. Pitch black darkness follows… just like the night I met him…</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">Walk across the Milky Way with me.</Dialogue>
+        <Dialogue ID="2">You’ll become a pebble, and join me.</Dialogue>
+        <Dialogue ID="3">Let’s go back, just like that night.</Dialogue>
+        <Dialogue ID="4">I’m so glad to meet you.</Dialogue>
+        <Dialogue ID="5">If you find me crying again, then wipe my tears for me.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="ChildofGalaxy_Friend">
+      <Abnormality>Child of the Galaxy</Abnormality>
+      <CardName>A Token of Friendship</CardName>
+      <AbilityDesc>[All Allies]
+For 3 Scenes, all allies recover 10% of Max HP at the start of the Scene. (Max. 12)</AbilityDesc>
+      <FlaborText>The pebble dropped into your hand sparkles, sways, tickles, and eventually becomes the universe.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">Don’t lose it, and don’t give it to anyone else.</Dialogue>
+        <Dialogue ID="2">It’s my gift to celebrate our friendship. Please treasure it.</Dialogue>
+        <Dialogue ID="3">As long as you’re holding it, I’ll be right next to you.</Dialogue>
+        <Dialogue ID="4">You have to stay by my side forever, promise? Don’t forget this.</Dialogue>
+        <Dialogue ID="5">If my friend gets hurt… That would be sad.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="ChildofGalaxy_Token">
+      <Abnormality>Child of the Galaxy</Abnormality>
+      <CardName>Pebble</CardName>
+      <AbilityDesc>[Single Ally]
+At the start of each Scene, three random pages in hand gain the 'Pebble' status. (Excludes [On Play] pages)
+Recover 3-7 HP upon using pages with the Pebble.
+Lose 1-3 HP upon using pages without the Pebble.</AbilityDesc>
+      <FlaborText>“Do you like it? More than you like me? Isn’t it obvious? I know everything. Whatever you do, wherever you go.”</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">Why did you visit that friend instead… Do you like them more than you like me?</Dialogue>
+        <Dialogue ID="2">I treasure you, but you won’t treasure me…</Dialogue>
+        <Dialogue ID="3">Whatever you do, wherever you go… I’m always watching everything.</Dialogue>
+        <Dialogue ID="4">If you won’t keep me company, then I don’t need you.</Dialogue>
+        <Dialogue ID="5">Goodbye, and don’t come back to me again.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="Porccubus_Thorn">
+      <Abnormality>Porccubus</Abnormality>
+      <CardName>Thorns</CardName>
+      <AbilityDesc>[Single Ally]
+On a successful Pierce attack, inflict 1 Thrill to the target.
+Against targets with 3+ Thrill, deal 2-7 bonus damage and Stagger damage, then remove all stacks of Thrill.(Excludes Mass Attacks)</AbilityDesc>
+      <FlaborText>At first, all I had to do was be lightly pricked by one of the thorns. Now I have to rub my whole body against it to get the same high.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">Sure, I’ll bend down for you~ Feel free to pet me.</Dialogue>
+        <Dialogue ID="2">It’s scary at first, but the next step won’t be difficult at all.</Dialogue>
+        <Dialogue ID="3">Come under me. I’ll liberate you from all kinds of pain.</Dialogue>
+        <Dialogue ID="4">Just a little taste of the heaven won’t hurt, right?</Dialogue>
+        <Dialogue ID="5">I pity those fools who don’t know this happiness~</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="Porccubus_Boom">
+      <Abnormality>Porccubus</Abnormality>
+      <CardName>Elation</CardName>
+      <AbilityDesc>[Single Ally]
+Dice Power +1. Reduce Max Stagger Resist by 50%.</AbilityDesc>
+      <FlaborText>Now it’s time for my head to burst. Good day.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">If you wish for unbearable pleasure, you’ll break down eventually.</Dialogue>
+        <Dialogue ID="2">I’m just giving you laughter, so much that you might die laughing~</Dialogue>
+        <Dialogue ID="3">You’ll start with one, and keep wanting more.</Dialogue>
+        <Dialogue ID="4">Your head will soon be filled with happiness, almost enough to burst your head.</Dialogue>
+        <Dialogue ID="5">Once you’ve had a taste of this sweetness, you can’t quit.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="Porccubus_Happy">
+      <Abnormality>Porccubus</Abnormality>
+      <CardName>Laughing Powder</CardName>
+      <AbilityDesc>[All Allies]
+When hit, recover 2-4 Stagger Resist if the character isn't staggered.</AbilityDesc>
+      <FlaborText>When the powder that falls from the thorns becomes known to the world, people may forever sink into the swamp of intoxication.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">Your head will soon be filled with happiness.</Dialogue>
+        <Dialogue ID="2">You’ll fall ill if you hold in your laughter. Why don’t you laugh to your heart’s content?</Dialogue>
+        <Dialogue ID="3">Laughter makes you happy~ Blessings will come your way, you know?</Dialogue>
+        <Dialogue ID="4">If everyone laughs together, they must be in a blissful place, right?</Dialogue>
+        <Dialogue ID="5">Come on, let’s laugh together~ Turn your mouth all the way up~</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+        <AbnormalityCard ID="Alriune_flower">
+      <Abnormality>Alriune</Abnormality>
+      <CardName>Flower Petals</CardName>
+      <AbilityDesc>[Single Ally]
+Each time the librarian sustains damage greater than 10% of their Max HP, all enemies take 4-8 Stagger damage, and the librarian recovers 5-10 HP.</AbilityDesc>
+      <FlaborText>Shedding flower petals in place of tears, you spoke to me. “We were all part of earth once, so I plead you not to speak of the end here and now.”</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">I have no eyes, but I can see everything.</Dialogue>
+        <Dialogue ID="2">Let us go back to the grave with all that lives and breathes.</Dialogue>
+        <Dialogue ID="3">These flowers bloom without an end, and not one of them would wither.</Dialogue>
+        <Dialogue ID="4">I am cracked… yet beautiful flowers fill that space.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="Alriune_Bush">
+      <Abnormality>Alriune</Abnormality>
+      <CardName>Autumn’s Passing</CardName>
+      <AbilityDesc>[Single Ally]
+When hit, inflict 1 Aroma.
+(Aroma: At the start of the Scene, take Stagger damage equal to the amount of Aroma and halve the stack.)</AbilityDesc>
+      <FlaborText>Bearing the hope to return to dust, it shall go back to the grave with all that desires to live.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">My atonement ended with a heavy breath in the cold.</Dialogue>
+        <Dialogue ID="2">I was abandoned in a dark forest; my mind, life, and heart withering away.</Dialogue>
+        <Dialogue ID="3">I was born from earth, so now I yearn to return to it.</Dialogue>
+        <Dialogue ID="4">Please don’t think of this as our last moment.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="Alriune_Doll">
+      <Abnormality>Alriune</Abnormality>
+      <CardName>Spring’s Genesis</CardName>
+      <AbilityDesc>[Single Ally]
+Each Scene, a 'Petal' attaches to a random enemy.
+After the character with the Petal takes 4 hits in a single Scene, all characters take 3-7 Stagger damage, and the librarian becomes untargetable for the next Scene.</AbilityDesc>
+      <FlaborText>Unwithering flowers violently blossom.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">Will you be the one to grant my wish?</Dialogue>
+        <Dialogue ID="2">With unwithering flowers began my magnificent descent to despair.</Dialogue>
+        <Dialogue ID="3">Spring is a season when sins committed anew are forgiven again.</Dialogue>
+        <Dialogue ID="4">We only stay in this world for a fleeting moment.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="SilentOrchestra_Music">
+      <Abnormality>The Silent Orchestra</Abnormality>
+      <CardName>Ever-repeating Performance</CardName>
+      <AbilityDesc>[Single Ally]
+Add an 'Ever-repeating Performance' page to the hand: ‘Cost 3 - [Single-use;][On Use] Ends the Scene. At the start of the next Scene, user's HP and Stagger Resist return to the values they had when acquiring this page, and fully restore Light.’
+The page is also included in the deck at the start of subsequent Acts.</AbilityDesc>
+      <FlaborText>The performance does not end. And Da capo. And, Da capo al Fine</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">From break and ruin, I begin the most beautiful performance.</Dialogue>
+        <Dialogue ID="2">A single performer standing in the midst of a silent score. He creates sounds where there is none.</Dialogue>
+        <Dialogue ID="3">Even if my hands were to stop, it would rise from your mind.</Dialogue>
+        <Dialogue ID="4">This blindingly entrancing stage will be prepared again soon.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+ <AbnormalityCard ID="SilentOrchestra_Affect">
+      <Abnormality>The Silent Orchestra</Abnormality>
+      <CardName>Fervent Adoration</CardName>
+      <AbilityDesc>[Single Ally]
+All enemies target random characters including their own allies for 2 Scenes. Enemies deal +2-4 damage with attacks while this effect lasts.</AbilityDesc>
+      <FlaborText>The orchestra gives impetus to the music, bringing the entire department to its demise. When all the performers have gathered, the music that no one can hear but everyone can listen to begins.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">The music that no one can hear, but everyone can listen to…</Dialogue>
+        <Dialogue ID="2">To the audience who shall walk into their seat upon hearing the choked up performance.</Dialogue>
+        <Dialogue ID="3">Tune permeates music, and music permeates people.</Dialogue>
+        <Dialogue ID="4">Don’t lock yourself in, open your eyes to behold the glorious music.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="SilentOrchestra_Finale">
+      <Abnormality>The Silent Orchestra</Abnormality>
+      <CardName>The Finale</CardName>
+      <AbilityDesc>[Single Ally]
+Whenever the selected librarian Staggers an enemy, all enemies lose 1-6 Light at the start of the next Scene.</AbilityDesc>
+      <FlaborText>“The music shall perforate your entire being.”</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">The music shall perforate your entire being.</Dialogue>
+        <Dialogue ID="2">If you can stand with your two legs, be willing to send your praise.</Dialogue>
+        <Dialogue ID="3">An endless applause, to inspire the conductor to lift their baton once more.</Dialogue>
+        <Dialogue ID="4">The beautiful melody circles the empty stage.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+  </Sephirah>
+  
+  <Sephirah SephirahType="Tiphereth">
+    <AbnormalityCard ID="QueenOfHatred_Laser">
+      <Abnormality>The Queen of Hatred</Abnormality>
+      <CardName>Love</CardName>
+      <AbilityDesc>[Single Ally]
+After winning a clash using an Offensive die, a random ally recovers 3-5 HP.
+After winning a clash using a Defensive die, a random ally recovers 2-4 Stagger Resist.</AbilityDesc>
+      <FlaborText>In the name of Love and Justice~ Here comes Magical Girl!</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">Don’t worry. You guys will be safe as long as I’m here!</Dialogue>
+        <Dialogue ID="2">You can count on me any time! I’ll keep you safe.</Dialogue>
+        <Dialogue ID="3">A true magical girl never runs away in the face of any hardships!</Dialogue>
+        <Dialogue ID="4">Tell me if anything bad happens, okay? I know I can help you! </Dialogue>
+        <Dialogue ID="5">Please feel free to call me whenever there’s danger~!</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="QueenOfHatred_Gun">
+      <Abnormality>The Queen of Hatred</Abnormality>
+      <CardName>Justice</CardName>
+      <AbilityDesc>[Single Ally]
+The enemy who dealt the most damage to allies on the previous Scene is marked as a 'Villain'.
+Deal +3-5 damage when attacking the 'Villain'.</AbilityDesc>
+      <FlaborText>If I am on the side of good, then someone has to be on the side of evil. Without someone to play the villain, I can’t exist.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">Finally, a villain shows up! Careful, everyone.</Dialogue>
+        <Dialogue ID="2">It’s okay. I can take care of the baddies!</Dialogue>
+        <Dialogue ID="3">In the name of Love and Justice~ I have arrived!</Dialogue>
+        <Dialogue ID="4">Those who disrupt society will be brought to justice.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+ <AbnormalityCard ID="QueenOfHatred_Snake">
+      <Abnormality>The Queen of Hatred</Abnormality>
+      <CardName>Hate</CardName>
+      <AbilityDesc>[Single Ally]
+After losing a clash, take 2-4 Stagger damage, and gain 1 Strength next Scene. (Up to 2 per Scene)
+After losing three clashes in a single Scene, reduce the Cost of the most expensive page in hand by 1. (Once per Scene)</AbilityDesc>
+      <FlaborText>She vowed to love everything in the world, but all that was left was a collapsing heart.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">Why is everybody happy? I’d have no reason to exist if they are…</Dialogue>
+        <Dialogue ID="2">I am the chosen one. Who would protect the world besides me?</Dialogue>
+        <Dialogue ID="3">I wasn’t able to protect anyone…</Dialogue>
+        <Dialogue ID="4">I hate a peaceful world… It’s like… It’s like I’m not needed anymore…</Dialogue>
+        <Dialogue ID="5">I deserve to be everyone’s hero. I was born this way…</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="KnightOfDespair_Gaho">
+      <Abnormality>The Knight of Despair</Abnormality>
+      <CardName>Blessing</CardName>
+      <AbilityDesc>[Single Ally]
+If the character took damage from attacks on the previous Scene, change this character's resistances against the type that dealt the most damage to "Endured" for the Scene. (Applies separately for physical and Stagger damage)</AbilityDesc>
+      <FlaborText>The will to protect seems to remain unchanged after all this time; even in containment, it is still obsessed with the act of protection.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">All that remains is the hollow pride of a weathered knight.</Dialogue>
+        <Dialogue ID="2">If I could have another chance to protect…</Dialogue>
+        <Dialogue ID="3">Worry not. I’ll keep you safe this time.</Dialogue>
+        <Dialogue ID="4">To sleep in peace…</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="KnightOfDespair_Sword">
+      <Abnormality>The Knight of Despair</Abnormality>
+      <CardName>Blades Whetted by Teardrops</CardName>
+      <AbilityDesc>[Single Ally]
+On a successful Pierce attack, if the die rolled max. value, deal bonus damage equal to 10% of the target's Max HP. (Max. 12, Excludes Mass Attacks)</AbilityDesc>
+      <FlaborText>When Justice turns its back once more, several dozen blades will rove without a purpose. The swords will eventually point at those she could not protect.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">The edge of this sword sharpened with tears and despair is always precise.</Dialogue>
+        <Dialogue ID="2">I vowed to this sharp sword, whetted with tears on an anvil of despair.</Dialogue>
+        <Dialogue ID="3">Foul play is forbidden. There won’t be any mercy, either…</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="KnightOfDespair_Despair">
+      <Abnormality>The Knight of Despair</Abnormality>
+      <CardName>Despair</CardName>
+      <AbilityDesc>[All Allies]
+Whenever an ally dies, all other allies gain 1-3 Strength and Haste, and all enemies are inflicted with 2 Fragile.</AbilityDesc>
+      <FlaborText>As with sorrow, perhaps sharing the burden will blunt the edge.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">The despair swelling up inside me is now overflowing through my eyes and heart…</Dialogue>
+        <Dialogue ID="2">What does this despair… mean to me?</Dialogue>
+        <Dialogue ID="3">Why must I lose others again and again… Why…</Dialogue>
+        <Dialogue ID="4">Yet again, endless despair fills me…</Dialogue>
+        <Dialogue ID="5">I swore to protect, yet I lost them again…</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+  
+    <AbnormalityCard ID="Greed_Break">
+      <Abnormality>The King of Greed</Abnormality>
+      <CardName>Intemperance</CardName>
+      <AbilityDesc>[Single Ally]
+If the first die of a Combat Page wins a clash, destroy all remaining dice the opponent has at a 25% chance.</AbilityDesc>
+      <FlaborText>The first seed of desire originated from the pure yearning for happiness. The tiny seed grew larger and larger, hungering for more. Over time, the seed hardened and turned into a piece of shiny gem.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">A thought echoed inside my head. A thought soaked with greed, compelling me to pursue happiness.</Dialogue>
+        <Dialogue ID="2">Is it so bad to lust for honey when there are flowers?</Dialogue>
+        <Dialogue ID="3">At first, it was a pure longing for happiness.</Dialogue>
+        <Dialogue ID="4">The yearning for happiness would remain the same.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="Greed_Protect">
+      <Abnormality>The King of Greed</Abnormality>
+      <CardName>Road to Happiness</CardName>
+      <AbilityDesc>[Single Ally]
+Gain 1 Endurance for each clash won in a Scene. (Up to 3 per Scene)</AbilityDesc>
+      <FlaborText>Happiness became obsession, obsession became greed, and the greed forever solidified to become a golden amber. The happiness in the beginning, still holding a smile, dwells inside.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">At last, the once pure desire materialized into golden amber and solidified.</Dialogue>
+        <Dialogue ID="2">This greed shall forever shine brilliantly.</Dialogue>
+        <Dialogue ID="3">How can one resist the allure of this gorgeous being.</Dialogue>
+        <Dialogue ID="4">Wishing for everyone’s happiness must include my own, too…</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="Greed_Eat">
+      <Abnormality>The King of Greed</Abnormality>
+      <CardName>Greed</CardName>
+      <AbilityDesc>[Single Ally]
+In a clash, if the winner's dice roll is greater than the loser's by 4 or higher, the loser takes 3-7 bonus damage, and the winner recovers 2-5 HP. (Both the librarian and their opponent can activate this effect)</AbilityDesc>
+      <FlaborText>The magical girl, who was no longer a magical girl, ate many things. Authority, money, fame, and many other forms of pleasure. She ended up eating away anything in her sight. Now, only visceral greed remains.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">The gem fanned the starved greed.</Dialogue>
+        <Dialogue ID="2">But greed seeks eternity—seeks deep, deep eternity.</Dialogue>
+        <Dialogue ID="3">My basket is so large, all the fruits of the world can’t make it full.</Dialogue>
+        <Dialogue ID="4">Nothing was left in my wake. Only visceral greed remained.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+        <AbnormalityCard ID="Angry_Angry">
+      <Abnormality>The Servant of Wrath</Abnormality>
+      <CardName>Wrath</CardName>
+      <AbilityDesc>[Single Ally]
+The selected librarian enters a state of Wrath.
+The librarian will become uncontrollable and target random characters, including allies.
+Also, the librarian gains 2 Strength, restores 2 Light, and draws 2 more pages each Scene.</AbilityDesc>
+      <FlaborText>The Servant was betrayed after abandoning her principles and ingenuously trusting someone with her whole heart. Now, she is dominated by the anger towards herself for what she had done.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">GRRRR!!!</Dialogue>
+        <Dialogue ID="2">UUUGH… AAARGH!!!</Dialogue>
+        <Dialogue ID="3">AAAAH!!!!!</Dialogue>
+        <Dialogue ID="4">SINNERS OF THE OTHERWORLDS!!! EMBODIMENTS OF EVIL!!!</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+<AbnormalityCard ID="Angry_Friend">
+      <Abnormality>The Servant of Wrath</Abnormality>
+      <CardName>Companion</CardName>
+      <AbilityDesc>[Single Ally]
+When there is no 'Companion' present, the first enemy the selected librarian hits is marked as one. When the selected librarian defeats the Companion, all librarians restore 3 Light and recover 10 HP and Stagger Resist.</AbilityDesc>
+      <FlaborText>The Servant of Wrath valued justice and balance more than anyone, but she began sharing knowledge with the Hermit—an enemy of her realm—becoming friends with her in secret.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">Call me… Call my name…</Dialogue>
+        <Dialogue ID="2">Friend… My friend… Those who need… each other…</Dialogue>
+        <Dialogue ID="3">We… We were true friends… Right?</Dialogue>
+        <Dialogue ID="4">It was the most precious relationship to me, and what happened…</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="Angry_Poison">
+      <Abnormality>The Servant of Wrath</Abnormality>
+      <CardName>Acidic Sludge</CardName>
+      <AbilityDesc>[All Enemies]
+Inflict 5 'Erosion' to all enemies. Enemies with Erosion also gain Bind equal to the amount of Erosion they currently have.
+(Erosion: At the end of the Scene, take damage equal to the amount of Erosion and lose 1 stack; when taking a hit, take bonus damage and Stagger damage equal to the amount of Erosion.)</AbilityDesc>
+      <FlaborText>When the two met at last, the Hermit brought countless minions to destroy the Servant’s world.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">Balance crumbles, and justice vanishes…</Dialogue>
+        <Dialogue ID="2">That’s why I lost; I fell to my beloved companion.</Dialogue>
+        <Dialogue ID="3">Use them and they use you. That’s us.</Dialogue>
+        <Dialogue ID="4">This has happened before… Thwarted everything for the sake of them…</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="NihilClown_Card">
+      <Abnormality>The Jester of Nihil</Abnormality>
+      <CardName>Magical Girls</CardName>
+      <AbilityDesc>[Single Ally]
+At the start of the Scene, a Combat Page in hand with the highest Cost (that is lower than 4) is marked with a Magical symbol.
+After losing 4 clashes with the marked page, gain 5 Protection each Scene, and become immune to status ailments for the rest of the reception.
+Also, when hit, inflict 1 Erosion and Fragile next Scene to the attacker. (Twice per Scene)</AbilityDesc>
+      <FlaborText>The jester retraced the steps of a path everybody would’ve taken. The jester always found itself at the end of that road. There was no way to know if they had gathered to become the jester, or if the jester had come to resemble them.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">Did you make me, or did I make you?</Dialogue>
+        <Dialogue ID="2">I look just like them, and they look just like me when they’re together.</Dialogue>
+        <Dialogue ID="3">I slowly traced the road back. It’s the road you would’ve taken.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="NihilClown_Nihil">
+      <Abnormality>The Jester of Nihil</Abnormality>
+      <CardName>Void</CardName>
+      <AbilityDesc>[Single Ally]
+Add an 'All Returns to the Void' page to the hand: ‘Cost 3 - [Single-use;][Combat Start] Exhaust all pages from hand. Every Scene after this, gain Strength and Endurance equal to the number of pages exhausted this way.’
+The page is also included in the deck at the start of subsequent Acts.</AbilityDesc>
+      <FlaborText>The jester was deeper in thought, that poor jester. Without the brave puppy to lead the way, it walks with meaningless steps.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">Where is the right path? Where do I go?</Dialogue>
+        <Dialogue ID="2">I don’t know what awaits me ahead. Could it be a cliff, or a ditch?</Dialogue>
+        <Dialogue ID="3">Where is that bright dog when I need it to lead me?</Dialogue>
+        <Dialogue ID="4">My mind is a void, my thoughts empty. I become more fearless as they become more vacant.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="NihilClown_fusion">
+      <Abnormality>The Jester of Nihil</Abnormality>
+      <CardName>Nix</CardName>
+      <AbilityDesc>[Single Ally]
+This page is only effective if the librarian possesses all four of the following Abnormality pages: 'Greed', 'Hate', 'Despair', and 'Wrath'.
+At the start of the Scene, inflict 5 Feeble, Disarm, and Bind to all other characters. 'Greed', 'Hate', and 'Wrath' lose their drawbacks.</AbilityDesc>
+      <FlaborText>Having decided to trust its own intuition, the jester spake the names of everyone it had met on that path with each step it took.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">Leading the way through foolishness, there’s not a thing to guide me.</Dialogue>
+        <Dialogue ID="2">Blinded by carnal desires and jealousy, willingly walking to the edge of the cliff.</Dialogue>
+        <Dialogue ID="3">If you’re confused because there doesn’t seem to be a correct method at the moment, just trust your intuition!</Dialogue>
+        <Dialogue ID="4">Everybody’s agony becomes one.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+  </Sephirah>
+
+
+  <Sephirah SephirahType="Gebura">
+    <AbnormalityCard ID="Redhood_Hunt">
+      <Abnormality>Little Red Riding Hooded Mercenary</Abnormality>
+      <CardName>Prey</CardName>
+      <AbilityDesc>[Single Ally]
+Mark the first enemy that is attacked by this librarian after the page is selected.
+Deal +2-6 damage when attacking the marked foe.</AbilityDesc>
+      <FlaborText>The wolf’s death is the one and only thing I can love in my life.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">I’m a pro. I can handle that easily.</Dialogue>
+        <Dialogue ID="2">Don’t take your eyes off it. Fix your sight upon its movement.</Dialogue>
+        <Dialogue ID="3">Once you’ve set your sights on a target, commit to your hunt. Don’t give up.</Dialogue>
+        <Dialogue ID="4">Fix your gaze upon your target and run at it. Have the resolve to kill it, whatever it takes.</Dialogue>
+        <Dialogue ID="5">If you make a request, then I might help you.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="Redhood_Revenge">
+      <Abnormality>Little Red Riding Hooded Mercenary</Abnormality>
+      <CardName>Vengeance</CardName>
+      <AbilityDesc>[Single Ally]
+At the start of the Scene, gain Strength based on the amount of damage taken the previous Scene. (1 Strength per 5 damage, up to 2)</AbilityDesc>
+      <FlaborText>Between us, there’s no victory to be won. All I think about is how I’ll kill that bastard in a way more gruesome and painful than the last time.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">I’ve been grinding the blade to behead that damned wolf.</Dialogue>
+        <Dialogue ID="2">Hand that dreadful, cunning bastard over to me.</Dialogue>
+        <Dialogue ID="3">I’ll hang his head over my bed. Only then can I get up in the morning without having a nightmare.</Dialogue>
+        <Dialogue ID="4">It was all to read the enemy. Now’s the time to return the favor.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="Redhood_RedScar">
+      <Abnormality>Little Red Riding Hooded Mercenary</Abnormality>
+      <CardName>Ruddled Welts</CardName>
+      <AbilityDesc>[Single Ally]
+If the librarian's HP is at 50%/35%/25% or lower, gain 1/2/4 Strength each Scene.</AbilityDesc>
+      <FlaborText>I got used to grinding the axe instead of picking flowers when I was 15.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">This isn’t a proud decoration of a survivor. It’s the proof of my will to live.</Dialogue>
+        <Dialogue ID="2">The more scars you get, the stronger your will to survive becomes.</Dialogue>
+        <Dialogue ID="3">Don’t take pride in it. It’s a sign that you weren’t skilled enough.</Dialogue>
+        <Dialogue ID="4">…I feel horrible when I look at these scars. It makes me shudder in fury.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+     <AbnormalityCard ID="BigBadWolf_Claw">
+      <Abnormality>Big and Will be Bad Wolf</Abnormality>
+      <CardName>Claws of Savagery</CardName>
+      <AbilityDesc>[Single Ally]
+After the librarian sustains damage greater than 25% of their Max HP, become untargetable and unclashable next Scene.
+The librarian gains 2 Strength that Scene, and inflicts 1 Bleed with each successful attack.</AbilityDesc>
+      <FlaborText>Once upon a time, these claws would cut open the bellies of numerous creatures and tear apart their guts.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">What sharp claws I had, the better to fill the role I was born for…</Dialogue>
+        <Dialogue ID="2">The wolf was born to do bad things and be punished accordingly…</Dialogue>
+        <Dialogue ID="3">These violent and savage claws would always tear into the skin of fresh meat…</Dialogue>
+        <Dialogue ID="4">Nothing was better than these claws at tearing apart someone’s guts…</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="BigBadWolf_Eat">
+      <Abnormality>Big and Will be Bad Wolf</Abnormality>
+      <CardName>Instincts</CardName>
+      <AbilityDesc>[Single Ally]
+Each time the selected librarian wins a clash, the last die on their current page gains 1-2 Power.
+Recover 3-7 HP on a successful hit with that final die.</AbilityDesc>
+      <FlaborText>The taste of flesh was so good after such a long absence. Since then, it got harder and harder to keep himself in check. Still, it didn’t matter to him. After all, he was “destined” to be a big bad wolf.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">This place reeks of an awful stench… It calls for me…</Dialogue>
+        <Dialogue ID="2">Like the empty moon filled with darkness, my belly should be filled with meat…</Dialogue>
+        <Dialogue ID="3">Looking at you makes my mouth water…</Dialogue>
+        <Dialogue ID="4">If I can fill my stomach… I’ll be satisfied…</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="BigBadWolf_Change">
+      <Abnormality>Big and Will be Bad Wolf</Abnormality>
+      <CardName>The Role of the Wolf</CardName>
+      <AbilityDesc>[Single Ally]
+Counter dice gain 1-2 Power.
+Counter dice inflict 2 Fragile upon winning a clash. (3 times per Scene)</AbilityDesc>
+      <FlaborText>Wolves could not cross the line when doing bad things. And wolves had to be punished. Wolves always needed to be an example.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">Doesn’t matter… I’m destined to be a big bad wolf…</Dialogue>
+        <Dialogue ID="2">Everyone called me that, so it must be true… Old tales are never wrong…</Dialogue>
+        <Dialogue ID="3">A wolf needs no name, it just obeys the role it was born to fit in…</Dialogue>
+        <Dialogue ID="4">No one ever wished to get close to the scary wolf…</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+        <AbnormalityCard ID="Mountain_Eat">
+      <Abnormality>Mountain of Smiling Bodies</Abnormality>
+      <CardName>Absorption</CardName>
+<AbilityDesc>[Single Ally]
+For the duration of the Act, recover 20% of Max. HP (Max. 20) upon defeating an enemy.
+At the start of the Scene, gain Strength based on the amount of HP the librarian has recovered this Act. (1 Strength per 10% of Max. HP healed, up to 3)</AbilityDesc>
+      <FlaborText>It only wants one thing: our flesh drenched in blood. Once it gets a whiff of the scent, it will pursue us in an instant.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">Meat… Tasty… me…at…</Dialogue>
+        <Dialogue ID="2">The smell… this… way…</Dialogue>
+        <Dialogue ID="3">Not… enough… must eat… more…</Dialogue>
+        <Dialogue ID="4">More bodies… will… make us… stronger…</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="Mountain_Shout">
+      <Abnormality>Mountain of Smiling Bodies</Abnormality>
+      <CardName>Laughter</CardName>
+      <AbilityDesc>[Single Ally]
+When the librarian takes a hit while their HP is at 50% or lower, a screech bursts out at a 50% chance. (Up to 3 times per Scene)
+The screech deals 2-5 Stagger damage to all enemies and inflicts 1 Fragile next Scene.</AbilityDesc>
+      <FlaborText>From the mountains of bodies; the dead gave life to something. The dead fused with one another, all smiling.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">Krrrh… Ghh… Grgh…</Dialogue>
+        <Dialogue ID="2">We help… each other… Sharing with each other… our hands… and feet…</Dialogue>
+        <Dialogue ID="3">All… are smiling… we… are happy…</Dialogue>
+        <Dialogue ID="4">We are… together… helping…</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="Mountain_Vomit">
+      <Abnormality>Mountain of Smiling Bodies</Abnormality>
+<CardName>Mountain of Corpses</CardName>
+<AbilityDesc>[Single Ally]
+All librarians except the selected one are immediately killed when this page is chosen. 
+The selected librarian gains Max Light Capacity, Light Restoration, Strength, Protection, and Haste proportional to the number of librarians killed for the rest of the battle.</AbilityDesc>
+      <FlaborText>The more bodies it comes across, the more defined its shape becomes. And it is never satisfied.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">Must… must become one… again…</Dialogue>
+        <Dialogue ID="2">Must return… Must… hurry…</Dialogue>
+        <Dialogue ID="3">No… This is… not… good…</Dialogue>
+        <Dialogue ID="4">Don’t fall off… Get together again… We are one…</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="Nosferatu_BloodHope">
+      <Abnormality>Nosferatu</Abnormality>
+      <CardName>Fear of Water</CardName>
+      <AbilityDesc>[Single Ally]
+On hit, inflict 1 Bleed next Scene, and gain 1 Blood.(Excludes Mass Attacks)
+Blood grants various effects depending on its amount, such as increasing attack damage at the cost of HP, taking Stagger damage at the start of the Scene, and granting Strength.</AbilityDesc>
+      <FlaborText>He seemed lost. He was looking for something, but he didn’t appear to know what he wanted to find.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">Blood… I want vivid blood!</Dialogue>
+        <Dialogue ID="2">A night when one is allowed to pursue all kinds of desire… A neverending, blood-red night.</Dialogue>
+        <Dialogue ID="3">The blood—in its purest and clearest form! Bring me eternal happiness!</Dialogue>
+        <Dialogue ID="4">The Danse Macabre is with everyone! All and sundry have a fair chance of being eaten!</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="Nosferatu_Wine">
+      <Abnormality>Nosferatu</Abnormality>
+      <CardName>Wine</CardName>
+      <AbilityDesc>[Single Ally]
+Upon defeating an enemy with Bleed, all allies recover 10 HP, and the selected librarian gains max Blood.</AbilityDesc>
+      <FlaborText>It maintains a human form, but a single drop of blood should be enough for it to shapeshift into a ferocious monster and spend the night in a rampage.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">Ah… Holding back the pain of this thirst is not exactly a pleasing sight to behold.</Dialogue>
+        <Dialogue ID="2">It’s too early for a nap… Won’t you join me and share the pleasure?</Dialogue>
+        <Dialogue ID="3">Forfeit false hope, and forget about the pretense of humanity…</Dialogue>
+        <Dialogue ID="4">Tempted by raging thirst, the glass is emptied.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="Nosferatu_Vampire">
+      <Abnormality>Nosferatu</Abnormality>
+      <CardName>Vampirism</CardName>
+      <AbilityDesc>[Single Ally]
+Deal +2-4 damage and recover 2-5 HP upon attacking a target with Bleed.(Excludes Mass Attacks)</AbilityDesc>
+      <FlaborText>…And the thirst would never truly be quenched.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">Death dances macabrely with everybody! All of you have a fair chance to be consumed!</Dialogue>
+        <Dialogue ID="2">Time for a feast! Enjoy the blood-red night imbued with madness to your heart’s content!</Dialogue>
+        <Dialogue ID="3">There is no escape from this thirst!</Dialogue>
+        <Dialogue ID="4">Chew it all up! Imbibe to the last drop!</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="NothingThere_Goodbye">
+      <Abnormality>Nothing There</Abnormality>
+      <CardName>Goodbye</CardName>
+      <AbilityDesc>[Single Ally]
+Double the Power of the last die the librarian plays each Scene.</AbilityDesc>
+      <FlaborText>If it has been confirmed that it has escaped and stood on two feet, there is only one thing you can do. Straighten up your posture, gather your hands neatly, and pray to whatever you believe in and observe the situation as it unfolds.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">Help…me… Hel… HELP ME!!!</Dialogue>
+        <Dialogue ID="2">Is anyone… nyone… there?! ANYONE THERE!!!</Dialogue>
+        <Dialogue ID="3">Do… n‘t wan… D… don’t wanna… I don’t wanna die…</Dialogue>
+        <Dialogue ID="4">Hello. Hell-o. He… llo… Hello.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="NothingThere_Hello">
+      <Abnormality>Nothing There</Abnormality>
+      <CardName>Hello?</CardName>
+      <AbilityDesc>[Single Ally]
+Each Scene, the first die the librarian plays recovers HP equal to the amount of damage it dealt.</AbilityDesc>
+      <FlaborText>“What’s worse, it tried to mimic humans. Doing stuff like looking into a mirror, mumbling to itself, or trying to fix its skeletal structure; it’s as if it was trying to mimic ‘us’.”</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">Mon… ster. That… mons… ter… That monster… why is it here…</Dialogue>
+        <Dialogue ID="2">…er!!! …ger!!! Save… me!</Dialogue>
+        <Dialogue ID="3">Th… Tha… horr… ible… monster… monster…</Dialogue>
+        <Dialogue ID="4">el… llo… Hello? ello… Hello?</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="NothingThere_Skin">
+      <Abnormality>Nothing There</Abnormality>
+      <CardName>Shell</CardName>
+      <AbilityDesc>[Single Ally]
+Nullify incoming Stagger damage from attacks.</AbilityDesc>
+      <FlaborText>Its appearance resembles a human, but it most certainly isn’t human. It periodically devours employees and wears their shell. The skeleton and organs are misplaced during the process, so it takes a bizarre form.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">Love… Lo… ou… I love you…</Dialogue>
+        <Dialogue ID="2">Want… a shell… Shell…</Dialogue>
+        <Dialogue ID="3">Than… k you… Thank you. Thank you.</Dialogue>
+        <Dialogue ID="4">Cool… Cool. Cool.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+  </Sephirah>
+
+  
+  <Sephirah SephirahType="Chesed">
+    <AbnormalityCard ID="ScareCrow_Wisdom">
+      <Abnormality>Scarecrow Searching for Wisdom</Abnormality>
+      <CardName>Torn Off Wisdom</CardName>
+      <AbilityDesc>[Single Ally]
+Whenever the librarian uses a page, discard a random page from hand and restore 1 Light. (Excludes [On Play] pages)</AbilityDesc>
+      <FlaborText>When he returned, he had a visibly long scar on his head. People asked him how he felt, and he responded that his head felt lighter.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">Wisdom… Give me the wisdom I lack…</Dialogue>
+        <Dialogue ID="2">My head is all empty… I’m just a dowdy pile of hay…</Dialogue>
+        <Dialogue ID="3">People often talk without thinking… I could make better use of those brains…</Dialogue>
+        <Dialogue ID="4">I wonder how it feels to be wise… To know everything…</Dialogue>
+        <Dialogue ID="5">I’m fine with detaching the head if it can get better once it comes back together…</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="Scarecrow_Harvest">
+      <Abnormality>Scarecrow Searching for Wisdom</Abnormality>
+      <CardName>Gleaning</CardName>
+      <AbilityDesc>[Single Ally]
+After attacking an enemy with a higher amount of Stagger Resist, deal 2-4 bonus Stagger damage, and recover 2-5 Stagger Resist.(Excludes Mass Attacks)</AbilityDesc>
+      <FlaborText>It shows aggression towards certain employees, attempting to take their brains. These employees are those who scored “Excellent” on the intelligence test.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">I feel much smarter… I can know anything now…</Dialogue>
+        <Dialogue ID="2">Good… Very good… I’ll be smarter the more I eat, right…?</Dialogue>
+        <Dialogue ID="3">Have I become wiser…? Maybe I’ll be more than a stack of hay…</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="Scarecrow_Rake">
+      <Abnormality>Scarecrow Searching for Wisdom</Abnormality>
+      <CardName>Rake</CardName>
+      <AbilityDesc>[Single Ally]
+After Staggering an enemy, copy two pages owned by that enemy and add them to the librarian's hand with 2 less Cost.
+The copied pages are exhausted on use.
+(Can only copy Melee pages while equipping a Melee-only Key page, and vice versa; no effect against characters with 'Shimmering')</AbilityDesc>
+      <FlaborText>The rake tilled the human brain instead of farmland. How many of the wise people among us have lost their lives to this rake?</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">I’ll scrape your wisdom…</Dialogue>
+        <Dialogue ID="2">I want to be smart like the others…</Dialogue>
+        <Dialogue ID="3">The wisdom to move forward… I want it…</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="LumberJack_Cut">
+      <Abnormality>Warm-hearted Woodsman</Abnormality>
+      <CardName>A Warm Heart</CardName>
+      <AbilityDesc>[Single Ally]
+At the start of the Scene, boost the Power of Offensive dice by +1-2 for the Scene if the librarian has 3 or more Light.</AbilityDesc>
+      <FlaborText>In anger, he swung his axe through the wizard’s heart. The warm heart was pulsing vigorously.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">This is… how it feels to have a thumping heart…</Dialogue>
+        <Dialogue ID="2">The louder the heart echoes… the faster I move…</Dialogue>
+        <Dialogue ID="3">The kinder the owner of the heart was… the warmer my insides become…</Dialogue>
+        <Dialogue ID="4">The heart is a peculiar thing… I can laugh now…</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="LumberJack_Tree">
+      <Abnormality>Warm-hearted Woodsman</Abnormality>
+      <CardName>Timber</CardName>
+      <AbilityDesc>[Single Ally]
+When attacking a target that has more Light than the librarian, Offensive dice gain Power equal to the amount of Light the target has. (Up to 2)</AbilityDesc>
+      <FlaborText>This is a forest full of hearts. No matter how many he cuts down, the forest still remains dense.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">I chop, and chop… Yet the forest remains dense…</Dialogue>
+        <Dialogue ID="2">I want to be warm… I need something stronger…</Dialogue>
+        <Dialogue ID="3">I crammed all I could find into this empty canister… yet it is… still cold…</Dialogue>
+        <Dialogue ID="4">To cut more trees, I never neglected sharpening the axe…</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="LumberJack_Heart">
+      <Abnormality>Warm-hearted Woodsman</Abnormality>
+      <CardName>Cardiae</CardName>
+      <AbilityDesc>[Single Ally]
+After dealing 15 or more damage to enemies in a single Scene, reduce the Cost of the two most expensive pages in hand by 1.
+On kill, reduce the Cost to 0 instead.
+The Cost reduction is reset when the pages are used.</AbilityDesc>
+      <FlaborText>There will never be enough hearts. Once a Woodsman, he now fells people instead of trees.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">I require an object… to fill this empty void…</Dialogue>
+        <Dialogue ID="2">I do not want to feel this empty and lonely feeling anymore…</Dialogue>
+        <Dialogue ID="3">The heart made of lead… was stiff and cold.</Dialogue>
+        <Dialogue ID="4">I clutched my empty chest and grieved…</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+
+   <AbnormalityCard ID="House_LionAtk">
+      <Abnormality>The Road Home</Abnormality>
+      <CardName>Courage</CardName>
+      <AbilityDesc>[Single Ally]
+At the start of the Scene, gain Strength and Protection equal to the number of allies currently alive subtracted by 2. (If the value is less than 0, Feeble and Fragile will be inflicted instead.)</AbilityDesc>
+      <FlaborText>Can I follow you forever? So I can tear them apart…</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">Friend. I have nothing to fear when I have you around!</Dialogue>
+        <Dialogue ID="2">We set off with everyone~ Dancing along the road!</Dialogue>
+        <Dialogue ID="3">Friend. Oh, friends~! Let’s not be scared!</Dialogue>
+        <Dialogue ID="4">There’s nothing that can stop us!</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="House_BigHouse">
+      <Abnormality>The Road Home</Abnormality>
+      <CardName>Home</CardName>
+      <AbilityDesc>[All Allies]
+At the start of the Scene, numbered targets are placed on up to 3/2/2/1/1 enemies, depending on the number of allies currently alive.
+Each time a target is attacked in the correct order, increase outgoing damage by 3 for the Scene.</AbilityDesc>
+      <FlaborText>Unable to ever go back home, they began an endless journey.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">Don’t bother us! Let us go home in peace!</Dialogue>
+        <Dialogue ID="2">Ah~ That wizard! That wicked wizard!</Dialogue>
+        <Dialogue ID="3">The mean wizard took my friends!</Dialogue>
+        <Dialogue ID="4">Friends. Oh, friends. Will we get to go home?</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="House_Home">
+      <Abnormality>The Road Home</Abnormality>
+      <CardName>A Road Walked Together</CardName>
+      <AbilityDesc>[Single Ally]
+If an ally redirects an attack that was initially targeting this character, dice on that ally's page gain 1-2 Power in the clash.</AbilityDesc>
+      <FlaborText>Let’s walk together. To a wonderful land… The world of dreams.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">I was sound asleep, then the adventure suddenly began.</Dialogue>
+        <Dialogue ID="2">Hoyoyo~ Let’s go, together~!</Dialogue>
+        <Dialogue ID="3">Let’s skip home together!</Dialogue>
+        <Dialogue ID="4">There must be a beautiful wonderland at the end of the road…</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="Ozma_Boom">
+      <Abnormality>Ozma</Abnormality>
+      <CardName>Power of the Past</CardName>
+      <AbilityDesc>[Single Ally]
+Increase the Cost of Combat Pages by 1.
+All dice gain 3-4 Power.</AbilityDesc>
+      <FlaborText>Ozma held the pumpkin-carving knife, then took off running towards where the lady wizard should be.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">I’m Ozma… A single person took everything away from me…</Dialogue>
+        <Dialogue ID="2">I don’t want to live a life of being thieved any longer…</Dialogue>
+        <Dialogue ID="3">I want you to feel it all the same… The misery of forgetting it all… losing it all…</Dialogue>
+        <Dialogue ID="4">I’ll be the one to take things away this time…</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="Ozma_forgotten">
+      <Abnormality>Ozma</Abnormality>
+      <CardName>Oblivion</CardName>
+      <AbilityDesc>[Single Ally]
+Add an 'Oblivion' page to hand: ‘Cost 3 - [Single-use;][On Play] Immobilized for this Scene; cannot be targeted. At the end of this Scene, recover 40% of Max. HP (up to 48) and fully restore Light.’
+The page is also included in the deck at the start of subsequent Acts.</AbilityDesc>
+      <FlaborText>There was such a fine and beautiful person, staring at her with a perplexed expression.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">Why did I trust a stranger so naively… Why…</Dialogue>
+        <Dialogue ID="2">I haven’t even touched my face… I was so afraid…</Dialogue>
+        <Dialogue ID="3">Staying alive is all I can do in a life like this…</Dialogue>
+        <Dialogue ID="4">A forgotten being stuck in the underground… Why did it have to be…</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="Ozma_Immortal">
+      <Abnormality>Ozma</Abnormality>
+      <CardName>Powder of Life</CardName>
+      <AbilityDesc>[All Allies]
+When a librarian takes lethal damage, nullify it and recover 20% of Max. HP (up to 24). Can only activate once per reception.</AbilityDesc>
+      <FlaborText>Finally, she sprinkled cinnamon powder—her favorite—and clutched the pumpkin in her arms.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">All I have left now… are these children.</Dialogue>
+        <Dialogue ID="2">Here, child… I’ll give you new life.</Dialogue>
+        <Dialogue ID="3">Come back to me, so I won’t be lonely…</Dialogue>
+        <Dialogue ID="4">No… Don’t take away what is mine, not again…</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="Oz_Emerald">
+      <Abnormality>The Adult who Tells Lies</Abnormality>
+      <CardName>Emerald</CardName>
+      <AbilityDesc>[Single Ally]
+Add an 'Emerald' page to hand: ‘Cost 5 - [On Play;] [Target Enemy] Cancel 2 random Combat Pages on the target's Speed dice. Recover 1 Light for each successful hit on the target this Scene (Up to 2)’.
+The page is also included in the deck at the start of subsequent Acts.</AbilityDesc>
+      <FlaborText>Oz came up with a brilliant idea. Her emerald eyes seemed to shine even brighter.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">The emerald roads sparkle bright as ever.</Dialogue>
+        <Dialogue ID="2">She was a poor, poor child… Her eyes were just like mine.</Dialogue>
+        <Dialogue ID="3">Follow along this path. You might just find what you want.</Dialogue>
+        <Dialogue ID="4">I’ll make your wishes come true. What do you wish for?</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="Oz_Gift">
+      <Abnormality>The Adult who Tells Lies</Abnormality>
+      <CardName>False Present</CardName>
+      <AbilityDesc>[All Allies]
+Add 0-Cost false present pages that activate on play to the E.G.O pages list: 'Liquid Courage', 'Silk Sack of Sawdust', 'Heart of Lead', 'Home that Cannot Be Reached', and 'Transformation'.
+The false present pages are also added to the E.G.O page list at the start of subsequent Acts.</AbilityDesc>
+      <FlaborText>Poor Ozma. She didn’t know that lying adults don’t approach others without reason.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">Come closer. I’ll help you forget all of your woes and worries.</Dialogue>
+        <Dialogue ID="2">You’re a machine, aren’t you? A heart is unnecessary for a machine.</Dialogue>
+        <Dialogue ID="3">Drink this potion, it’ll give you courage. You’ll be braver than anyone.</Dialogue>
+        <Dialogue ID="4">Wear this pair of shoes and be on your way. To the hometown you miss so much.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="Oz_Control">
+      <Abnormality>The Adult who Tells Lies</Abnormality>
+      <CardName>Magic Trick</CardName>
+      <AbilityDesc>[Single Ally]
+Add a 'Magic Trick' page to hand: ‘Cost 4 - [On Play] Reduce the Cost of all pages in hand to 0. When used, their Cost is reset to the value before this effect was applied.’
+The page is also included in the deck at the start of subsequent Acts.</AbilityDesc>
+      <FlaborText>Soon, Oz came to be called a wizard by the people.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">Poor stuffing of straw. I’ll give you the wisdom to ponder over anything.</Dialogue>
+        <Dialogue ID="2">Tin-cold woodsman. I’ll give you the heart to forgive and love anyone.</Dialogue>
+        <Dialogue ID="3">Cowardly kitten. I’ll give you the courage to stand up to anything and everything.</Dialogue>
+        <Dialogue ID="4">Last of all, road that is lost. I will send you home.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+  </Sephirah>
+  
+  
+  <Sephirah SephirahType="Binah">
+    <AbnormalityCard ID="Bigbird_Eye">
+      <Abnormality>Big Bird</Abnormality>
+      <CardName>Watchful Eyes</CardName>
+      <AbilityDesc>[Single Ally]
+Fully restore the selected librarian's Light.
+Each Scene, a random ally gains no Light while the selected librarian restores 1 additional Light.</AbilityDesc>
+      <FlaborText>The eyes always shone brilliantly, burning like stars in the night sky. But it gave its eyes to the Big Bird in order to protect the forest.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">For every creature in the forest I saved, my eyes gained another in number.</Dialogue>
+        <Dialogue ID="2">I need eyes that can check the surroundings thoroughly, in order to keep this place safe.</Dialogue>
+        <Dialogue ID="3">I won’t miss the smallest creature…</Dialogue>
+        <Dialogue ID="4">You don’t have to worry. I’ll keep you safe…</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+      
+    <AbnormalityCard ID="Bigbird_Lamp">
+      <Abnormality>Big Bird</Abnormality>
+      <CardName>Eternally Lit Lamp</CardName>
+      <AbilityDesc>[Single Ally]
+Any enemy this librarian targets will be forced to target the librarian back, regardless of Speed.</AbilityDesc>
+      <FlaborText>“If I kill the creatures first, then no one would be killed by the beast!”</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">Follow this lamp. I’ll save you all.</Dialogue>
+        <Dialogue ID="2">Giving up my feathers… I gained a light that would burn forever.</Dialogue>
+        <Dialogue ID="3">Come over here. Let me help you.</Dialogue>
+        <Dialogue ID="4">Let’s brighten the road ahead, so I can have a good view of the lives I must save.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+      
+    <AbnormalityCard ID="Bigbird_Save">
+      <Abnormality>Big Bird</Abnormality>
+      <CardName>Salvation</CardName>
+      <AbilityDesc>[Single Ally]
+All dice gain +1 Power against enemies with higher Speed.
+If target's HP is at 25% or lower, destroy all of their dice upon winning a clash.</AbilityDesc>
+      <FlaborText>To this bird, death in itself is salvation.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">If I kill them first, then no one would be killed by the beast!</Dialogue>
+        <Dialogue ID="2">A big, scary monster lives in this forest! Be careful.</Dialogue>
+        <Dialogue ID="3">A child in peril needs my protection.</Dialogue>
+        <Dialogue ID="4">For the weak and powerless… I should take the lead.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+      
+    <AbnormalityCard ID="SmallBird_Punishment">
+      <Abnormality>Punishing Bird</Abnormality>
+      <CardName>Punishment</CardName>
+      <AbilityDesc>[Single Ally]
+After taking damage, the first die of the first page the librarian uses next Scene gains 2-4 Power. (Excludes [On Play] pages)</AbilityDesc>
+      <FlaborText>“It must be because there’s no one to punish people for their misdeeds. If someone takes that role, then no foul act would happen in this world ever again!”</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">If I punished them, then there won’t be any more bad people, right?</Dialogue>
+        <Dialogue ID="2">There’s no point in forgiving. A misdeed is a misdeed.</Dialogue>
+        <Dialogue ID="3">That’s it! It’s gotta be because there’s no one to punish all the bad guys in the world.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+      
+    <AbnormalityCard ID="SmallBird_Beak">
+      <Abnormality>Punishing Bird</Abnormality>
+      <CardName>Punishing Beak</CardName>
+      <AbilityDesc>[Single Ally]
+The librarian's attacks deal bonus damage equal to the number of Scenes that pass without the librarian taking damage from attacks. (Max. 10)</AbilityDesc>
+      <FlaborText>People have been committing sins since long ago. “Why do they commit sins, knowing it’s wrong?”</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">Why do they commit sins when they know it’s wrong?</Dialogue>
+        <Dialogue ID="2">I’ll give them a good scolding, so they won’t even think about doing misdeeds again.</Dialogue>
+        <Dialogue ID="3">Don’t do bad things from now on!</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+      
+    <AbnormalityCard ID="Smallbird_Fly">
+      <Abnormality>Punishing Bird</Abnormality>
+      <CardName>Small Flutters</CardName>
+      <AbilityDesc>[Single Ally]
+Evade dice gain 1-2 Power.
+Upon winning a clash using Evade dice, the next Offensive die gains 1-2 Power.</AbilityDesc>
+      <FlaborText>A small and confident bird that punishes the evil, guilty, and all sorts of irreverent people.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">I left the forest, and never went back.</Dialogue>
+        <Dialogue ID="2">Let’s fly high. Let’s hope that the world will change for the better.</Dialogue>
+        <Dialogue ID="3">My flutters might be what it takes to change the world!</Dialogue>
+        <Dialogue ID="4">With excitement, I flapped my wings busily.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+      
+    <AbnormalityCard ID="LongBird_Sin">
+      <Abnormality>Judgement Bird</Abnormality>
+      <CardName>The Weight of Sin</CardName>
+      <AbilityDesc>[Single Ally]
+Whenever a die this librarian plays rolls the minimum value, take 2-7 damage and gain 1-2 Strength and Endurance next Scene.</AbilityDesc>
+      <FlaborText>Its scale would never neglect the weight of even the smallest sin.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">Time to weigh your sins.</Dialogue>
+        <Dialogue ID="2">I won’t neglect the weight of any sin.</Dialogue>
+        <Dialogue ID="3">The weight of your sins will determine the weight of your punishment.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+      
+   <AbnormalityCard ID="LongBird_Scale">
+      <Abnormality>Judgement Bird</Abnormality>
+      <CardName>Tilted Scale</CardName>
+      <AbilityDesc>[Single Ally]
+After attacking the enemy with the most HP, recover the HP of the ally with the least HP by 2-8. (3 times per Scene, Excludes Mass Attacks)</AbilityDesc>
+      <FlaborText>All that remains is the unjust scale. The long bird continues on, doling out judgement.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">This scale always yields a clear verdict; I can make sound, precise judgement with it.</Dialogue>
+        <Dialogue ID="2">My subjective views might affect fair judgement.</Dialogue>
+        <Dialogue ID="3">What if the scale doesn’t tip in either direction someday…? I can’t let that happen.</Dialogue>
+        <Dialogue ID="4">My scale won’t cease its duty until the day all evil beings disappear.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+      
+    <AbnormalityCard ID="LongBird_Judgement">
+      <Abnormality>Judgement Bird</Abnormality>
+      <CardName>Judgement</CardName>
+      <AbilityDesc>[Single Ally]
+At the start of the Scene, all characters gain 1 Sin at a 50% chance.
+If a character has 5+ Sin, they take damage equal to 10% of their Max. HP at the start of the Scene, and all Sin is removed from them.
+Sin can be transferred to another character by attacking and damaging them. (Once per page)</AbilityDesc>
+      <FlaborText>Then somebody said, “But what if the scale doesn’t tip in either direction someday?” Worried, Long Bird made a scale that always tipped to one side. That way every judgement would yield a clear verdict.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">When I lift this scale, I wish for immortality upon the guilty.</Dialogue>
+        <Dialogue ID="2">I will pass fair judgement upon all, marking out the misdeeds…</Dialogue>
+        <Dialogue ID="3">To protect the forest, I’ll lift the scale. Eternal judgement shall be delivered to them.</Dialogue>
+        <Dialogue ID="4">To judge all the beasts that live in this forest…</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+
+    <!-- Gee Apocalypse Bird, how come Binah lets you have SIX cards? -->
+    <AbnormalityCard ID="ApocalypseBird_BigEye">
+      <Abnormality>Apocalypse Bird</Abnormality>
+      <CardName>Big Eyes</CardName>
+      <AbilityDesc>[Single Ally]
+At the start of the Scene, inflict 'Enchanted' to all enemies.
+Enchanted enemies prioritize this librarian as a target, and deal +2-4 damage with attacks.
+Gain 1-2 Power in clashes against Enchanted enemies, and recover 2-5 HP and Stagger Resist upon winning a clash.</AbilityDesc>
+      <FlaborText>The Big Bird’s eyes imprisoned light.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">The bright light is trapped.</Dialogue>
+        <Dialogue ID="2">Let’s be free before we have to face that fear…</Dialogue>
+        <Dialogue ID="3">With just one simple act, I’ll give you a permanent and comfortable rest…</Dialogue>
+        <Dialogue ID="4">I have to be vigilant, watch out for any intruders.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="ApocalypseBird_SmallPeak">
+      <Abnormality>Apocalypse Bird</Abnormality>
+      <CardName>Small Beak</CardName>
+      <AbilityDesc>[Single Ally]
+Add a 'Small Beak' page to hand: ‘Cost 0 - [On Play;] [Return to Hand] Take 5% of Max. HP as damage; restore 1 Light’.
+The page is also included in the deck at the start of subsequent Acts.</AbilityDesc>
+      <FlaborText>And the Small Bird’s beak whispered, endlessly…</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">I whisper, without cessation…</Dialogue>
+        <Dialogue ID="2">We are punished for our sins, but it’s clear that yet more will sprout from the roots of sin.</Dialogue>
+        <Dialogue ID="3">Thus, punishment must uproot sin…</Dialogue>
+        <Dialogue ID="4">I should punish them with my small but tough beak.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+        <AbnormalityCard ID="ApocalypseBird_LongArm">
+      <Abnormality>Apocalypse Bird</Abnormality>
+      <CardName>Long Arms</CardName>
+      <AbilityDesc>[Single Ally]
+Take no damage from certain status ailments (Burn, Bleed, Fairy, Sin).</AbilityDesc>
+      <FlaborText>The Long Bird’s arms concealed time.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">I hide away time.</Dialogue>
+        <Dialogue ID="2">I condemn you, but you will still commit more sin without end…</Dialogue>
+        <Dialogue ID="3">There will never be a day when this scale of justice does not tilt…</Dialogue>
+        <Dialogue ID="4">My fair scale will determine who is more evil.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="ApocalypseBird_Apocalypse">
+      <Abnormality>Apocalypse Bird</Abnormality>
+      <CardName>The Beast</CardName>
+      <AbilityDesc>[Single Ally]
+Activates when the selected librarian possesses all of the following Abnormality pages: 'Big Eyes', 'Small Beak', 'Long Arms'.
+All dice of characters targeting or targeted by this character are unaffected by Power gain or loss, and their minimum and maximum values are lowered by 3.
+At the end of the Scene, all other characters take 15 damage, and this character fully restores Light.</AbilityDesc>
+      <FlaborText>The day when Big Bird’s eyes that could see hundreds of kilometers away, Long Bird who could judge any sin, and Small Bird’s mouth that could devour everything united into one, darkness fell upon the forest.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">I can’t let evil take all these precious things away.</Dialogue>
+        <Dialogue ID="2">If I could devour everything around me…</Dialogue>
+        <Dialogue ID="3">We’ve joined forces to protect more people.</Dialogue>
+        <Dialogue ID="4">I have to hurry up and find them. I can’t have the beast destroy this place…</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    <AbnormalityCard ID="ApocalypseBird_Gate">
+      <Abnormality>Apocalypse Bird</Abnormality>
+      <CardName>Guardians of the Forest</CardName>
+      <AbilityDesc>[Single Ally]
+All librarians gain 1 Haste at the start of each Scene for the duration of the reception.
+If all five librarians each have an Abnormality page, gain 1-2 Strength and Endurance in addition.</AbilityDesc>
+      <FlaborText>That’s when the birds decided to become the guardians of the forest. They loved this forest more than anyone else did, so they wanted to protect the creatures living in the forest and keep the peace.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">To protect this place we love more than anyone.</Dialogue>
+        <Dialogue ID="2">We hope for a world where pitiful lives can live in comfort.</Dialogue>
+        <Dialogue ID="3">We’re the only ones who can protect this place.</Dialogue>
+        <Dialogue ID="4">We should become the guardians instead, and save lives.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+<AbnormalityCard ID="ApocalypseBird_Atk">
+      <Abnormality>Apocalypse Bird</Abnormality>
+      <CardName>Peace</CardName>
+      <AbilityDesc>[Single Ally]
+When there is no 'Intruder' present, the first enemy the selected librarian attacks is marked as an 'Intruder'.(Excludes Mass Attacks)
+All of the Intruder's attacks deal 2-4 less physical and Stagger damage; also, the Intruder takes 1-2 bonus damage from attacks.</AbilityDesc>
+      <FlaborText>The bird began to prowl the forest, looking for the beast. But there was nothing. There were no creatures, no sun and moon, and no beast. All that was left was just a bird and the Black Forest.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">Those who endure the fear will attain peace…</Dialogue>
+        <Dialogue ID="2">Nothing will dare harm you.</Dialogue>
+        <Dialogue ID="3">When you reach the end, there will be no such thing as fear…</Dialogue>
+        <Dialogue ID="4">Peace and quiet have returned to the forest.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+  </Sephirah>
+
+  
+  <Sephirah SephirahType="Hokma">
+    <AbnormalityCard ID="Bloodytree_Wing">
+      <Abnormality>Burrowing Heaven</Abnormality>
+      <CardName>Lean, Bloody Wings</CardName>
+      <AbilityDesc>[Single Ally]
+On a deflect, deal half of the Block dice roll as physical damage to the opponent.</AbilityDesc>
+      <FlaborText>Once it recognizes that it lost your attention and focus… It will spread its wings. Like an angel, its wings will reach the skies and extend toward the ground, eventually blocking the sun out.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">Basking in everyone’s gaze and attention… It will finally come to fruition and spread its wings.</Dialogue>
+        <Dialogue ID="2">The one who spread their wings sacrificed everything they had, and yet…</Dialogue>
+        <Dialogue ID="3">If we ever open our eyes again, will we get to see the fruit of our labor in that gaze?</Dialogue>
+        <Dialogue ID="4">Do not come here… There is nothing but a thorny tree; it’s no place for you to rest…</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="Bloodytree_Gaze">
+      <Abnormality>Burrowing Heaven</Abnormality>
+      <CardName>Gaze of Others</CardName>
+      <AbilityDesc>[Single Ally]
+Deal +2-4 damage in a one-sided attack.
+In a clash, deal 3-6 less damage with attacks, but Block dice gain 1-3 Power.</AbilityDesc>
+      <FlaborText>That’s what a gaze is. Attention. An invisible string that connects us. Sole focus.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">Just close your eyes. That’s right, you’re doing good…</Dialogue>
+        <Dialogue ID="2">If you can’t see it, you can’t reach it.</Dialogue>
+        <Dialogue ID="3">The desire for the unreachable will only grow bigger. And to pursue it… is to tread a path riddled with thorns.</Dialogue>
+        <Dialogue ID="4">Once it’s brought within your cognizance… It will return to this deep, dark underground…</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="Bloodytree_Forcus">
+      <Abnormality>Burrowing Heaven</Abnormality>
+      <CardName>Attention and Focus</CardName>
+      <AbilityDesc>[Single Ally]
+Deal and take twice as much Stagger damage on a deflect.</AbilityDesc>
+      <FlaborText>Don’t look away, just keep your eyes on it. Contain it in your sight.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">You won’t bat an eye at this breathtaking sight.</Dialogue>
+        <Dialogue ID="2">Keep looking at it… Steadily… It’s alive, watching you in return, is it not?</Dialogue>
+        <Dialogue ID="3">Contain it in your sight…</Dialogue>
+        <Dialogue ID="4">You watch me… and I watch you…</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+        <AbnormalityCard ID="Clock_Time">
+      <Abnormality>The Price of Silence</Abnormality>
+      <CardName>Time</CardName>
+      <AbilityDesc>[All Allies]
+The player has 30 seconds to select Combat Pages before the combat phase begins each Scene.
+Boost the Power of all dice of all librarians by 1-2.</AbilityDesc>
+      <FlaborText>Time flows as life does, and life goes as time does.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">That one doesn’t have enough time is a useless complaint.</Dialogue>
+        <Dialogue ID="2">Tomorrow may or may not come.</Dialogue>
+        <Dialogue ID="3">You’ll be given more time than you have lost.</Dialogue>
+        <Dialogue ID="4">Time is given to everyone evenly, but fate makes it unfair.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="Clock_Thirteen">
+      <Abnormality>The Price of Silence</Abnormality>
+      <CardName>The Thirteenth Toll</CardName>
+      <AbilityDesc>[Single Ally]
+Every 13th Combat Page the librarian plays gains 1-2 Power. (Excludes [On Play] pages)
+The dice on the page also gain the following effect: ‘[On Hit] Deal bonus damage equal to (Dice value)% of target's Max HP’.</AbilityDesc>
+      <FlaborText>I know of absolute solitude. I shared my silence, and now I take its price. Once the time comes and the original owner arrives, the price will be paid.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">I heard that disastrous bell yet again.</Dialogue>
+        <Dialogue ID="2">As the bell rang, a scream broke the silence at last…</Dialogue>
+        <Dialogue ID="3">The bell tolls for the last time, in a moment that never seemed to come.</Dialogue>
+        <Dialogue ID="4">I gave out my silence, and now I take its price.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="Clock_Kill">
+      <Abnormality>The Price of Silence</Abnormality>
+      <CardName>Silence</CardName>
+      <AbilityDesc>[Single Ally]
+Add a 'Silence' page to the hand: ‘Cost 0 - [On Play] Take 15% of Max. HP as damage; all other characters lose 5 Speed’. 
+Add an 'Amplify' page to the hand: ‘Cost 0 - [On Play] Take 10% of Max. HP as damage; Gain 5 Speed’.
+The page is also included in the deck at the start of subsequent Acts.</AbilityDesc>
+      <FlaborText>Rarely, I feel as if time has stopped. Fleeting moments of silence sometimes befall me.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">Silence does not always bring peace.</Dialogue>
+        <Dialogue ID="2">An instant of silence, as if time had stopped.</Dialogue>
+        <Dialogue ID="3">When time stops, silence falls. In a way, they are one and the same.</Dialogue>
+        <Dialogue ID="4">Even when all has stopped, the soul will not perish.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="BlueStar_martyrdom">
+      <Abnormality>Blue Star</Abnormality>
+      <CardName>Martyr</CardName>
+      <AbilityDesc>[Single Ally]
+Add a 'Martyr' page to hand: ‘Cost 0 - [On Play] For this Scene, deal 4-6 bonus Stagger damage with attacks but take 1-3 damage after a successful attack’.
+The page is also included in the deck at the start of subsequent Acts.</AbilityDesc>
+      <FlaborText>Let us meet again as stars.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">Let’s relish eternal happiness at the end of this universe together.</Dialogue>
+        <Dialogue ID="2">Life cannot resist the instincts; we all go back to that place someday.</Dialogue>
+        <Dialogue ID="3">We are not dying. We’re simply returning to where we belong.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+        <AbnormalityCard ID="BlueStar_Atonement">
+      <Abnormality>Blue Star</Abnormality>
+      <CardName>Penance</CardName>
+      <AbilityDesc>[Single Ally]
+If any character is Staggered at the start of the Scene, they take 3-7 damage, and all allies gain 1 Strength for the Scene. (Multiple Staggered characters do not give more Strength)</AbilityDesc>
+      <FlaborText>Our Blue Star is the only sanctuary that accepts us. We will be cleansed of our sins there.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">Let us completely take off this filthy husk and shine brightly.</Dialogue>
+        <Dialogue ID="2">We shouldn’t let our anxiety fester inside us, busying ourselves trying to forget our wrongdoings by erasing them.</Dialogue>
+        <Dialogue ID="3">We’ll all eventually go back to that place and cleanse ourselves of all sin there.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+        <AbnormalityCard ID="BlueStar_Melody">
+      <Abnormality>Blue Star</Abnormality>
+      <CardName>A Nostalgic Sound</CardName>
+      <AbilityDesc>[All Allies]
+All allies deal +2-4 Stagger damage for this Scene. The effect of this page activates every 3 Scenes afterwards.</AbilityDesc>
+      <FlaborText>The rise of a star is a brand new beginning. Don’t you hear the everlasting sound of the trumpet?</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">Can you hear this sound? The nostalgic echo we’ve been eagerly searching for?</Dialogue>
+        <Dialogue ID="2">Aah… At last…! It’s calling for us at last!</Dialogue>
+        <Dialogue ID="3">That call is guiding us to the only place that will accept us…!</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="WhiteNight_Bless">
+      <Abnormality>WhiteNight</Abnormality>
+      <CardName>Baptism</CardName>
+      <AbilityDesc>[Single Ally]
+Add a 'Baptism' page to hand: ‘Cost 2 - [On Play;] [Return to Hand] Target recovers 6 HP and gains 1 Endurance this Scene (Once per Scene)’.
+The page is also included in the deck at the start of subsequent Acts.</AbilityDesc>
+      <FlaborText>“I shall heal you, curing you of all disease and injury you possess.”</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">I am here to treat disease.</Dialogue>
+        <Dialogue ID="2">Place your trust in me. I am the only one who can help you.</Dialogue>
+        <Dialogue ID="3">Why have you not treated that scar?</Dialogue>
+        <Dialogue ID="4">I shall heal you, curing you of all disease and injury you possess.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+        <AbnormalityCard ID="WhiteNight_Red">
+      <Abnormality>WhiteNight</Abnormality>
+      <CardName>Advent</CardName>
+      <AbilityDesc>[Single Ally]
+For the duration of the reception, restore 1 additional Light at the start of the Scene.
+If the selected librarian also has the Abnormality page 'Baptism', its effect is enhanced: ‘Target recovers 12 HP and gains 2 Endurance this Scene’.</AbilityDesc>
+      <FlaborText>“I am death and life. Darkness and light.”</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">Ye who are drenched in sin. Rise and face me.</Dialogue>
+        <Dialogue ID="2">I have not manifested myself in such a form to lay judgement.</Dialogue>
+        <Dialogue ID="3">I shall undo the restrictions that have imprisoned you in this place, and lead you to the paradise that welcomes everyone.</Dialogue>
+        <Dialogue ID="4">I shall be with ye as I relieve you of the fear of horrifying death.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="WhiteNight_Confess">
+      <Abnormality>WhiteNight</Abnormality>
+      <CardName>Confession</CardName>
+      <AbilityDesc>[All Allies]
+Fully recover Stagger Resist, and purge all status ailments. (Also applies to Staggered librarians)
+For the duration of the reception, take 2 less Stagger damage from attacks.</AbilityDesc>
+      <FlaborText>To be willing to bear pain is half the atonement.</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">…</Dialogue>
+        <Dialogue ID="2">… …</Dialogue>
+        <Dialogue ID="3">… … …</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="WhiteNight_Guard">
+      <Abnormality>WhiteNight</Abnormality>
+      <CardName>Sentinel</CardName>
+      <AbilityDesc>[Single Ally]
+As long as there are other allies whom can be targeted, the selected librarian will not be targeted for attacks.
+If this character is alive at the end of the reception, resolve an additional book for every guest defeated.</AbilityDesc>
+      <FlaborText>“Thou art His Son; thou art the King.”</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">Ye who are full of blessings, rejoice. For I am with ye.</Dialogue>
+        <Dialogue ID="2">I shall guide you to the paradise that welcomes everyone.</Dialogue>
+        <Dialogue ID="3">I shall be with ye as I relieve you of the fear of horrifying death.</Dialogue>
+        <Dialogue ID="4">We shall bask in the fortune of being together forever, and none shall leave.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="WhiteNight_White">
+      <Abnormality>WhiteNight</Abnormality>
+      <CardName>Divine Power</CardName>
+      <AbilityDesc>[Single Ally]
+While this character is alive, all other allies gain 2 Protection each Scene.
+If this character has used WhiteNight's E.G.O page, allies also absorb instances of 3 or less damage.</AbilityDesc>
+      <FlaborText>“Be not frightened. I am thy savior and I shall be with thee.”</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">Be at ease. No calamity shall be able to trouble you.</Dialogue>
+        <Dialogue ID="2">Ye will gain a body free of such corruption, so how could one deny that this is salvation.</Dialogue>
+        <Dialogue ID="3">Believe in me, and forever ye will be outside of the dark.</Dialogue>
+        <Dialogue ID="4">Ye will be revered, for I am divine.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+    
+    <AbnormalityCard ID="WhiteNight_Apostle">
+      <Abnormality>WhiteNight</Abnormality>
+      <CardName>Apostles</CardName>
+      <AbilityDesc>[Single Ally]
+While this character is alive, all other allies deal +2-7 damage with attacks.
+If the character has used 'Baptism' 12 or more times this reception, allies also gain +1 Power.</AbilityDesc>
+      <FlaborText>“Have not I chosen you twelve? Now rise, my servants. Rise and serve me.”</FlaborText>
+      <Dialogues>
+        <Dialogue ID="1">Pursue peace and holiness. Without these, ye shan’t look at me.</Dialogue>
+        <Dialogue ID="2">Those who endure until the end will be able to proceed.</Dialogue>
+        <Dialogue ID="3">Accept my grace, and I shall bury your errors in the past.</Dialogue>
+        <Dialogue ID="4">Obey me and revel in the eternal life and mirth.</Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+  </Sephirah>
+
+  
+  <Sephirah SephirahType="None">
+    <AbnormalityCard ID="Enemy_Fight">
+      <Abnormality></Abnormality>
+      <CardName>???</CardName>
+      <AbilityDesc>At the start of the Scene, gain 1 Strength.</AbilityDesc>
+      <FlaborText></FlaborText>
+      <Dialogues>
+        <Dialogue ID="1"></Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+
+    <AbnormalityCard ID="Enemy_Gloom">
+      <Abnormality></Abnormality>
+      <CardName>???</CardName>
+      <AbilityDesc>At the start of the Scene, gain 1 Feeble and 2 Endurance.</AbilityDesc>
+      <FlaborText></FlaborText>
+      <Dialogues>
+        <Dialogue ID="1"></Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+
+    <AbnormalityCard ID="Enemy_Friend">
+      <Abnormality></Abnormality>
+      <CardName>? ? ?</CardName>
+      <AbilityDesc>When another ally gets attacked, gain 1 Strength next Scene (Twice per Scene)</AbilityDesc>
+      <FlaborText></FlaborText>
+      <Dialogues>
+        <Dialogue ID="1"></Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+
+    <AbnormalityCard ID="Enemy_Bind">
+      <Abnormality></Abnormality>
+      <CardName>? ? ?</CardName>
+      <AbilityDesc>At the start of the Scene, gain 1 Endurance.</AbilityDesc>
+      <FlaborText></FlaborText>
+      <Dialogues>
+        <Dialogue ID="1"></Dialogue>
+      </Dialogues>
+    </AbnormalityCard>
+  </Sephirah>
+</AbnormalityCardsRoot>

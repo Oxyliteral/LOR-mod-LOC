@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NormalInvitation xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Version>1.0</Version>
+  <Workshop>
+    <ID>LimbusOfCompany</ID>
+    <Title>Limbus of Company</Title>
+    <Description>Adds Limbus and Company into our Library of Ruina.</Description>
+    <Tag />
+    <PreviewImage />
+  </Workshop>
+</NormalInvitation>

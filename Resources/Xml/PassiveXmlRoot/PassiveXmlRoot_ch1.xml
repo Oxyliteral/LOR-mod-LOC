@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PassiveXmlRoot>
+	<Passive ID="200001">
+		<Rarity>Rare</Rarity>
+		<Cost>1</Cost>
+		<Script>ch1_1_rats_heal</Script>
+	</Passive>
+	<Passive ID="200004">
+		<Rarity>Rare</Rarity>
+		<Cost>1</Cost>
+		<Script>ch1_2_finn_damagebreakup</Script>
+	</Passive>
+</PassiveXmlRoot>

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbnormalityCardsRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Sephirah SephirahType="Malkuth">
+		<AbnormalityCard ID="ScorchedGirl_Walk">
+			<Abnormality>Scorched Girl</Abnormality>
+			<CardName>Footfalls</CardName>
+			<AbilityDesc>[All Allies]
+When a librarian's HP is at 20% or lower, deal 30% of the target's Max HP as damage (Max. 36) and inflict 1-3 Burn upon approaching them, then die.</AbilityDesc>
+			<FlaborText>I am coming to you. You, who will be reduced to ash like me.</FlaborText>
+			<Dialogues>
+				<Dialogue ID="1">If I must perish, then join me.</Dialogue>
+				<Dialogue ID="2">It’s just too sad to die alone… You know this feeling well, don’t you?</Dialogue>
+				<Dialogue ID="3">Wait for me. I am coming to you, who will be reduced to ash…</Dialogue>
+				<Dialogue ID="4">Step by step… Burn into pitch black char.</Dialogue>
+				<Dialogue ID="5">Is there anything I can do, me, a scorched dark child?</Dialogue>
+			</Dialogues>
+		</AbnormalityCard>
+		<AbnormalityCard ID="ScorchedGirl_Atk">
+			<Abnormality>Scorched Girl</Abnormality>
+			<CardName>Ashes</CardName>
+			<AbilityDesc>[Single Ally]
+When hit, inflict 1-3 Burn to the attacker, and gain a buff at a 40% chance next Scene: ‘Offensive dice inflict 1 Burn on hit’ (Does not stack).</AbilityDesc>
+			<FlaborText>“The charred body represents the child’s crumbled hope, while the ever blazing flame represents the obsession for affection.”</FlaborText>
+			<Dialogues>
+				<Dialogue ID="1">To burn all things that are bright to ashes…</Dialogue>
+				<Dialogue ID="2">I know very well that my scorched body can’t ever return to normal.</Dialogue>
+				<Dialogue ID="3">It’s scary to turn to ashes… But I don’t want this fire to go out.</Dialogue>
+				<Dialogue ID="4">I can feel happiness through the candlelight. And warmth…</Dialogue>
+				<Dialogue ID="5">Maybe I’ll freely soar through the sky as ash one day.</Dialogue>
+			</Dialogues>
+		</AbnormalityCard>
+		<AbnormalityCard ID="ScorchedGirl_Ashes">
+			<Abnormality>Scorched Girl</Abnormality>
+			<CardName>Matchlight</CardName>
+			<AbilityDesc>[Single Ally]
+The first two Combat Pages the librarian uses after this Abnormality page is selected gain the 'Matchlight' status (Excludes [On Play] pages). Whenever the librarian uses a page with 'Matchlight', gain 1 'Ember'.
+Pages with 'Matchlight' become stronger based on the amount of Ember; however, they have a 25% chance to damage the user if Ember is at 4 or higher.</AbilityDesc>
+			<FlaborText>“Well, she’s like a ticking time bomb. No one can tell if she’s in a good mood or not.”</FlaborText>
+			<Dialogues>
+				<Dialogue ID="1">Step by step… Burn into pitch black char.</Dialogue>
+				<Dialogue ID="2">What will show up when I light the next match?</Dialogue>
+				<Dialogue ID="3">You’ll leave me when the light of the last match goes out, won’t you?</Dialogue>
+				<Dialogue ID="4">This light is my only hope…</Dialogue>
+				<Dialogue ID="5">When a shooting star falls from the sky, it means someone went to heaven. I wonder whose star that is…</Dialogue>
+			</Dialogues>
+		</AbnormalityCard>
+		<AbnormalityCard ID="HappyTeddyBear_Hug">
+			<Abnormality>Happy Teddy Bear</Abnormality>
+			<CardName>Nostalgic Embrace of the Old Days</CardName>
+			<AbilityDesc>[Single Ally]
+Upon winning a clash, deal bonus Stagger damage equal to the dice's value at a 20% chance.
+Clashing against the same target multiple times will increase the likelihood.</AbilityDesc>
+			<FlaborText>Teddy was hugging someone tightly. Teddy loved hugs. But something was odd.</FlaborText>
+			<Dialogues>
+				<Dialogue ID="1">Give me a tight hug, will you? It’ll soothe your mind.</Dialogue>
+				<Dialogue ID="2">Everyone loves hugs. Don’t you agree?</Dialogue>
+				<Dialogue ID="3">Come over here and feel this fuzzy and warm feeling.</Dialogue>
+				<Dialogue ID="4">It’s okay. Don’t be afraid. All I do, is wrap you up in my arms.</Dialogue>
+				<Dialogue ID="5">You’re tired, aren’t you? Come take a rest in my embrace.</Dialogue>
+			</Dialogues>
+		</AbnormalityCard>
+		<AbnormalityCard ID="HappyTeddyBear_Memory">
+			<Abnormality>Happy Teddy Bear</Abnormality>
+			<CardName>Happy Memories</CardName>
+			<AbilityDesc>[Single Ally]
+The Combat Page with the highest Cost in hand is chosen (Excludes [On Play] pages). Using pages with the same name will decrease the Cost of every copy of that page the character currently owns by 1.</AbilityDesc>
+			<FlaborText>But, you see, Teddy never wanted to be separate from its owner ever again.</FlaborText>
+			<Dialogues>
+				<Dialogue ID="1">Why are you trying to leave me? We were such good friends…</Dialogue>
+				<Dialogue ID="2">Don’t leave me. You’ll change your mind when I hug you just once more.</Dialogue>
+				<Dialogue ID="3">It’s too sad to say goodbye twice…</Dialogue>
+				<Dialogue ID="4">Why do you have to leave me and promise to meet again?</Dialogue>
+				<Dialogue ID="5">Have you come to dislike me because I hugged you too tight?</Dialogue>
+			</Dialogues>
+		</AbnormalityCard>
+		<AbnormalityCard ID="HappyTeddyBear_Lonely">
+			<Abnormality>Happy Teddy Bear</Abnormality>
+			<CardName>Display of Affection</CardName>
+			<AbilityDesc>[Single Ally]
+All dice gain 1-2 Power in a clash.
+All dice lose 1-2 Power in a one-sided attack.</AbilityDesc>
+			<FlaborText>Its memories began with a warm hug.</FlaborText>
+			<Dialogues>
+				<Dialogue ID="1">I’m so happy that you’re playing with me.</Dialogue>
+				<Dialogue ID="2">You’re a kind one, aren’t you? Let’s do it again, okay?</Dialogue>
+				<Dialogue ID="3">You were so eager to play with me. I’m touched…</Dialogue>
+				<Dialogue ID="4">Come over here and feel this fuzzy and warm feeling of love with my hug.</Dialogue>
+				<Dialogue ID="5">Don’t worry. It’s nothing scary. All I do is wrap you up in my arms.</Dialogue>
+			</Dialogues>
+		</AbnormalityCard>
+		<AbnormalityCard ID="FairyCarnival_Care">
+			<Abnormality>Fairy Festival</Abnormality>
+			<CardName>The Fairies’ Care</CardName>
+			<AbilityDesc>[Single Ally]
+For three Scenes, recover 15% of Max HP (Max. 18) at the end of the Scene.
+If the librarian is hit 3 times while this effect is active, lose 25% of current HP (Max. 30) and lose this effect.</AbilityDesc>
+			<FlaborText>The fairies protect our employees. Everything will be peaceful while you are under the fairies’ care.</FlaborText>
+			<Dialogues>
+				<Dialogue ID="1">Don’t worry, now! We’ll take good care of you.</Dialogue>
+				<Dialogue ID="2">Don’t be alarmed. We’re here to protect you.</Dialogue>
+				<Dialogue ID="3">Fairies are sacred beings, you know. Have some confidence.</Dialogue>
+				<Dialogue ID="4">You’re a good-hearted lover of nature, you deserve our care.</Dialogue>
+				<Dialogue ID="5">You’re the special one. The others should reflect on themselves.</Dialogue>
+			</Dialogues>
+		</AbnormalityCard>
+		<AbnormalityCard ID="FairyCarnival_Gluttony">
+			<Abnormality>Fairy Festival</Abnormality>
+			<CardName>Gluttony</CardName>
+			<AbilityDesc>[Single Ally]
+When attacking a target who already took damage on the same Scene, deal +1-3 damage and recover 2-5 HP on hit.</AbilityDesc>
+			<FlaborText>The fairies were no more than carnivorous monsters, and their “protection” was their method to keep the meat fresh.</FlaborText>
+			<Dialogues>
+				<Dialogue ID="1">The reason we’re staying by your side? Of course it’s to protect you!</Dialogue>
+				<Dialogue ID="2">Enjoy the fairies’ care to your heart’s content.</Dialogue>
+				<Dialogue ID="3">A good person like you shouldn’t die at the hands of anyone else.</Dialogue>
+				<Dialogue ID="4">We won’t harm you, as long as you don’t do anything evil.</Dialogue>
+				<Dialogue ID="5">Are you doubting us? That’s a wicked thought you have…</Dialogue>
+			</Dialogues>
+		</AbnormalityCard>
+		<AbnormalityCard ID="FairyCarnival_QueenAtk">
+			<Abnormality>Fairy Festival</Abnormality>
+			<CardName>Predation</CardName>
+			<AbilityDesc>[Single Ally]
+All allies except the selected librarian lose 10 HP.
+The librarian recovers as much HP as others lost from this effect, and gains 3 Strength and 3 Haste this Scene.</AbilityDesc>
+			<FlaborText>His stomach and face were ripped off, and his eyeballs and organs were damaged as if they were eaten by something. Meanwhile, the fairies had someone’s blood and flesh smeared all over their mouths.</FlaborText>
+			<Dialogues>
+				<Dialogue ID="1">My fairies are dwindling in numbers… But it can’t be helped.</Dialogue>
+				<Dialogue ID="2">Scarred and rotten meat isn’t tasty!</Dialogue>
+				<Dialogue ID="3">I need something fresh. Spoiled meat isn’t nutritious.</Dialogue>
+				<Dialogue ID="4">I must eat it before it spoils, hm?</Dialogue>
+				<Dialogue ID="5">Scarred and rotten meat isn’t tasty.</Dialogue>
+			</Dialogues>
+		</AbnormalityCard>
+		<AbnormalityCard ID="QueenBee_Funga">
+			<Abnormality>Queen Bee</Abnormality>
+			<CardName>Spores</CardName>
+			<AbilityDesc>[Single Ally]
+When hit, inflict 1-3 Burn and 1-3 Bleed to the attacker next Scene.</AbilityDesc>
+			<FlaborText>It has been confirmed that the spores carry drone eggs that hatch inside a living host.</FlaborText>
+			<Dialogues>
+				<Dialogue ID="1">Even if a drone dies, I can always make more to fill their role.</Dialogue>
+				<Dialogue ID="2">To bring my kingdom to greatness… I need more bees…</Dialogue>
+				<Dialogue ID="3">Do you know where all my drones have gone to?</Dialogue>
+				<Dialogue ID="4">Look at the great blue sky while you can.</Dialogue>
+			</Dialogues>
+		</AbnormalityCard>
+		<AbnormalityCard ID="QueenBee_Bee">
+			<Abnormality>Queen Bee</Abnormality>
+			<CardName>Worker Bee</CardName>
+			<AbilityDesc>[Single Ally]
+The enemy who dealt the most damage to the selected librarian is marked. Other allies deal 2-4 more damage to the marked foe with their attacks.</AbilityDesc>
+			<FlaborText>They show only two forms of behavior: Delivering nutrients to the Queen, and proliferating.</FlaborText>
+			<Dialogues>
+				<Dialogue ID="1">My bees. It is time to move.</Dialogue>
+				<Dialogue ID="2">Your wings, legs, jaw… Put every part of your body to work. Lest they pillage our honey.</Dialogue>
+				<Dialogue ID="3">Make haste, my minions. We cannot waste a minute.</Dialogue>
+				<Dialogue ID="4">Who will remember the bees that have died for the kingdom…</Dialogue>
+			</Dialogues>
+		</AbnormalityCard>
+		<AbnormalityCard ID="QueenBee_Loyalty">
+			<Abnormality>Queen Bee</Abnormality>
+			<CardName>Loyalty</CardName>
+			<AbilityDesc>[Single Ally]
+At the start of the Scene, all allies gain Strength based on the amount of damage the selected librarian received on the previous Scene.
+(1 Strength per 5 damage)</AbilityDesc>
+			<FlaborText>The loyalty of bees is a naturally developed instinct. If we discover a way to draw forth that instinct, many things could change.</FlaborText>
+			<Dialogues>
+				<Dialogue ID="1">Hurry and supply me with more honey.</Dialogue>
+				<Dialogue ID="2">I am the kingdom, and the kingdom is I. Loyalty to me is loyalty to your kingdom.</Dialogue>
+				<Dialogue ID="3">Even if your wings are torn, you should give your everything to serve as long as your legs are working.</Dialogue>
+				<Dialogue ID="4">“Giving one’s life” is an empty vow. What I want from you is to survive and continue to protect me.</Dialogue>
+			</Dialogues>
+		</AbnormalityCard>
+		<AbnormalityCard ID="SnowWhite_Vine">
+			<Abnormality>Snow White’s Apple</Abnormality>
+			<CardName>Vines</CardName>
+			<AbilityDesc>[Single Ally]
+For the rest of the Act, inflict 6 Bind to a random enemy at the start of the Scene.
+Pierce dice gain 1-2 Power when attacking that enemy.</AbilityDesc>
+			<FlaborText>One day, a branch grew from it. The leaves and branches were already withered and dry, but it continued to grow.</FlaborText>
+			<Dialogues>
+				<Dialogue ID="1">The apple was alone for such a long time. Only rotting corpses kept its side…</Dialogue>
+				<Dialogue ID="2">The vines were withered and dry, but they always embraced the apple.</Dialogue>
+				<Dialogue ID="3">How I wish to bind the two feet of the person who was blessed by my existence and then left.</Dialogue>
+				<Dialogue ID="4">Those who bit into the apple fell asleep like the princess did, except they couldn’t ever wake up.</Dialogue>
+			</Dialogues>
+		</AbnormalityCard>
+		<AbnormalityCard ID="SnowWhite_Thorn">
+			<Abnormality>Snow White’s Apple</Abnormality>
+			<CardName>Barrier of Thorns</CardName>
+			<AbilityDesc>[Single Ally]
+When hit, inflict 2-8 damage and 1-3 Bind to the attacker.
+If 3 Bind was inflicted at once, recover HP equal to the amount of damage dealt with this effect.</AbilityDesc>
+			<FlaborText>The apple that dropped from Snow White’s hand after a single bite could never be happy. The apple, full of loneliness and hatred towards the princess, waited for the day it would rot away and return to the earth.</FlaborText>
+			<Dialogues>
+				<Dialogue ID="1">A pretty apple, abandoned in a forlorn place. Oh, pretty apple…</Dialogue>
+				<Dialogue ID="2">The apple couldn’t return to the earth, and only rotting impurities were around it.</Dialogue>
+				<Dialogue ID="3">The apple that was dropped on the dirt floor couldn’t be happy.</Dialogue>
+				<Dialogue ID="4">Thorned vines grew from the wounded heart.</Dialogue>
+			</Dialogues>
+		</AbnormalityCard>
+		<AbnormalityCard ID="SnowWhite_malice">
+			<Abnormality>Snow White’s Apple</Abnormality>
+			<CardName>Malice</CardName>
+			<AbilityDesc>[Single Ally]
+At the start of this Scene, all enemies take damage inversely proportional to the amount of HP the librarian has left. (Min. 5, Max. 30; Less HP is more DMG)</AbilityDesc>
+			<FlaborText>The inherent malice caused all life to crumble as soon as it bloomed.</FlaborText>
+			<Dialogues>
+				<Dialogue ID="1">My existence was born from wrath and a curse, yet I served as a blessing to someone else.</Dialogue>
+				<Dialogue ID="2">The lifeless vines continued to grow.</Dialogue>
+				<Dialogue ID="3">It grew, swallowing dreadful thoughts of revenge, anger at itself… and loneliness.</Dialogue>
+			</Dialogues>
+		</AbnormalityCard>
+	</Sephirah>
+</AbnormalityCardsRoot>

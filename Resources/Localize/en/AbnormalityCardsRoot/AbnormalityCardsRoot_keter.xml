@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbnormalityCardsRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Sephirah SephirahType="Keter">
+		<AbnormalityCard ID="Bloodbath_Blood">
+			<Abnormality>Bloodbath</Abnormality>
+			<CardName>Blood</CardName>
+			<AbilityDesc>[Single Ally]
+Take twice as much Stagger from attacks and deflects.
+At the end of the Scene, recover from Stagger, gain 2 Strength and Endurance, and restore half of the character's Light if the character is Staggered.</AbilityDesc>
+			<FlaborText>Unbearable depression overwhelms all who look into the bath.</FlaborText>
+			<Dialogues>
+				<Dialogue ID="1">That person simply couldn’t take her sorrow in stride.</Dialogue>
+				<Dialogue ID="2">Can you withstand this deep despair?</Dialogue>
+				<Dialogue ID="3">Come inside. Get into this dreadful pool of blood.</Dialogue>
+				<Dialogue ID="4">Let go of it all, close your eyes, and sink into this bottomless pool.</Dialogue>
+				<Dialogue ID="5">No matter how much blood is added, the bathtub never overflows.</Dialogue>
+			</Dialogues>
+		</AbnormalityCard>
+		<AbnormalityCard ID="Bloodbath_Scar">
+			<Abnormality>Bloodbath</Abnormality>
+			<CardName>Scars</CardName>
+			<AbilityDesc>[Single Ally]
+Take half as much Damage from attacks if the character is Staggered.
+Once per Clash, heal HP equal to the attacker's natural dice roll upon being attacked.
+Upon becoming Staggered, recover 25% of max HP.</AbilityDesc>
+			<FlaborText>When I saw the latticework of scars on her severed wrist, I was reminded of our wine cabinet. That day, I popped the cork off the last one.</FlaborText>
+			<Dialogues>
+				<Dialogue ID="1">It takes a strong will and courage to cut your own wrist.</Dialogue>
+				<Dialogue ID="2">Don’t call these people foolish. You’re the biggest coward.</Dialogue>
+				<Dialogue ID="3">The scars are marks of failure, but they aren’t worthless.</Dialogue>
+				<Dialogue ID="4">Caress this pain filling the tub softly.</Dialogue>
+				<Dialogue ID="5">The depth of a cut depends on the moment’s mind and willpower.</Dialogue>
+			</Dialogues>
+		</AbnormalityCard>
+		<AbnormalityCard ID="Bloodbath_Hands">
+			<Abnormality>Bloodbath</Abnormality>
+			<CardName>Pale Hands</CardName>
+			<AbilityDesc>[Single Ally]
+Speed Dice Slots +3. Two Speed Dice Slots become unavailable each Scene. At Emotion Levels II and V, one Speed Dice Slot becomes available.
+When hit, inflict "Pale Hand" on the attacker.
+(At the start of the Scene, inflict 1 Bind, Bleed, and Paralysis to self. At 3+ stack, also inflict 1 Disarm and Stagger Down. At 6+ stack, also inflict 1 Feeble and Damage Down.)
+</AbilityDesc>
+			<FlaborText>Many hands float in the bath.
+They are the hands of the people I once loved.</FlaborText>
+			<Dialogues>
+				<Dialogue ID="1">The hands of one that you, perhaps we, loved are resting inside.</Dialogue>
+				<Dialogue ID="2">These hands are waiting for someone to hold them, would you grant their wishes?</Dialogue>
+				<Dialogue ID="3">No matter how much you wish to grasp what slips through your fingers…</Dialogue>
+				<Dialogue ID="4">These hands earnestly want help, yet no one bothers to give them a glance.</Dialogue>
+				<Dialogue ID="5">She must’ve trembled hard, the knife could slip from her hand at any moment.</Dialogue>
+			</Dialogues>
+		</AbnormalityCard>
+		<AbnormalityCard ID="HeartofAspiration_Heart">
+			<Abnormality>Heart of Aspiration</Abnormality>
+			<CardName>Pulsation</CardName>
+			<AbilityDesc>[All Allies]
+Gain 1-2 Strength at the end of each Scene.
+At the end of each Scene, if the librarian did not deal any damage with Offensive dice, they lose 25% of their Max HP. (Max. 30)</AbilityDesc>
+			<FlaborText>Excessive aspiration would bring about unwarranted frenzy.</FlaborText>
+			<Dialogues>
+				<Dialogue ID="1">Overwhelming aspiration is what leads to wrongful frenzy.</Dialogue>
+				<Dialogue ID="2">Why won’t you wish for anything when you’ve earned such power?</Dialogue>
+				<Dialogue ID="3">He who holds power should rightfully wield it.</Dialogue>
+				<Dialogue ID="4">Yes, feel the rapid beating of your heart.</Dialogue>
+				<Dialogue ID="5">It seems we have a common goal we’re desperately wishing for, so allow us to help.</Dialogue>
+			</Dialogues>
+		</AbnormalityCard>
+		<AbnormalityCard ID="HeartofAspiration_Doki">
+			<Abnormality>Heart of Aspiration</Abnormality>
+			<CardName>Urging</CardName>
+			<AbilityDesc>[Single Ally]
+Increase Max HP by 15%. (Current HP increases accordingly)
+Gain 1-2 Speed.</AbilityDesc>
+			<FlaborText>When borrowed, its rate of contraction will double, enhancing the borrower’s vigor and strength.</FlaborText>
+			<Dialogues>
+				<Dialogue ID="1">Never stop wishing for it, until the beats give an answer.</Dialogue>
+				<Dialogue ID="2">Don’t you want to see the end of this thrill that’s about to burst?</Dialogue>
+				<Dialogue ID="3">Give a meaning to all things we’ve wished for.</Dialogue>
+				<Dialogue ID="4">Join me in this feverish pulsation.</Dialogue>
+				<Dialogue ID="5">Your craving will make the beats faster.</Dialogue>
+			</Dialogues>
+		</AbnormalityCard>
+		<AbnormalityCard ID="HeartofAspiration_Atk">
+			<Abnormality>Heart of Aspiration</Abnormality>
+			<CardName>Fervent Beats</CardName>
+			<AbilityDesc>[Single Ally]
+The selected librarian dies at the end of the third Scene after which this page was chosen.
+Gain 4 Strength, Endurance, Haste, and Protection each Scene until death. All Stagger damage resistances change to "Ineffective".</AbilityDesc>
+			<FlaborText>A heart without an owner; it still beats even after being removed from its body.</FlaborText>
+			<Dialogues>
+				<Dialogue ID="1">Yes, feel the rapid beating of your heart.</Dialogue>
+				<Dialogue ID="2">If you keep craving and do nothing to sate it, it’ll become too big and burst eventually.</Dialogue>
+				<Dialogue ID="3">Join me in this feverish and quick pulsation.</Dialogue>
+				<Dialogue ID="4">Even if it means I must burst someday, I want to see the end of it.</Dialogue>
+				<Dialogue ID="5">The more you aspire, the faster the beats will get.</Dialogue>
+			</Dialogues>
+		</AbnormalityCard>
+		<AbnormalityCard ID="Pinocchio_Learn">
+			<Abnormality>Pinocchio</Abnormality>
+			<CardName>Learning</CardName>
+			<AbilityDesc>[Single Ally]
+Add a 'Learn' page to hand: ‘Cost 2 - [Start of Clash] Replace all dice with ones on the opponent's page.’
+The page is also included in the deck at the start of subsequent Acts.</AbilityDesc>
+			<FlaborText>All the child could do was ‘learn’ by observing others and mimicking their behavior. And that was the problem.</FlaborText>
+			<Dialogues>
+				<Dialogue ID="1">I’m keen to learn as usual. Would you like to see me learn?</Dialogue>
+				<Dialogue ID="2">People taught me how to speak.</Dialogue>
+				<Dialogue ID="3">I’m not a fast learner. I just mimic what I see.</Dialogue>
+				<Dialogue ID="4">It’s not hard to mimic others. I don’t have to think.</Dialogue>
+				<Dialogue ID="5">I’ve learned lots of things, but I never go anywhere.</Dialogue>
+			</Dialogues>
+		</AbnormalityCard>
+		<AbnormalityCard ID="Pinocchio_Lie">
+			<Abnormality>Pinocchio</Abnormality>
+			<CardName>Lies</CardName>
+			<AbilityDesc>[Single Ally]
+At the start of the Scene, randomize the Costs of all pages whose original Cost is less than 4.</AbilityDesc>
+			<FlaborText>People lie all the time. Why is that a bad thing?</FlaborText>
+			<Dialogues>
+				<Dialogue ID="1">People love to say things the other way round.</Dialogue>
+				<Dialogue ID="2">They said it wasn’t for themselves. They were lying for the good of everyone…</Dialogue>
+				<Dialogue ID="3">Lalala… I sing along to the song of lies all the people sing.</Dialogue>
+				<Dialogue ID="4">I see the world upside down, as people have taught me.</Dialogue>
+				<Dialogue ID="5">Everyone lies, why are you saying it’s a bad thing?</Dialogue>
+			</Dialogues>
+		</AbnormalityCard>
+		<AbnormalityCard ID="Pinocchio_Curious">
+			<Abnormality>Pinocchio</Abnormality>
+			<CardName>Curiosity</CardName>
+			<AbilityDesc>[Single Ally]
+At the start of the Scene, shuffle all pages into the draw pile and draw 4 pages.</AbilityDesc>
+			<FlaborText>I’m keen to learn as usual. Would you like to see me learn?</FlaborText>
+			<Dialogues>
+				<Dialogue ID="1">I still have lots of things I want to know. There’s lots to learn.</Dialogue>
+				<Dialogue ID="2">If I see various things… Will I learn that much?</Dialogue>
+				<Dialogue ID="3">I’m curious about this… curious about that… Oh, and what’s this?</Dialogue>
+				<Dialogue ID="4">I’ve never seen that before… Where did it come from, and how?</Dialogue>
+			</Dialogues>
+		</AbnormalityCard>
+		<AbnormalityCard ID="TheSnowQueen_Sord">
+			<Abnormality>The Snow Queen</Abnormality>
+			<CardName>Sword of Frost</CardName>
+			<AbilityDesc>[Single Ally]
+Upon winning a clash, inflict 1-3 Bind next Scene at a 50% chance.
+Deal +2-5 Stagger damage against targets with Bind.</AbilityDesc>
+			<FlaborText>A queen lives alone in the frosty winter forest.</FlaborText>
+			<Dialogues>
+				<Dialogue ID="1">The edge of this blade is sharp and cold.</Dialogue>
+				<Dialogue ID="2">Only the warmth of spring can melt away this sword.</Dialogue>
+				<Dialogue ID="3">The straight blade knows exactly where to point itself to.</Dialogue>
+				<Dialogue ID="4">One day, when it gets warm enough for snow to melt, this sword shall too thaw away.</Dialogue>
+				<Dialogue ID="5">When this weapon impales your heart, you’ll become oblivious of yourself for a moment.</Dialogue>
+			</Dialogues>
+		</AbnormalityCard>
+		<AbnormalityCard ID="TheSnowQueen_Chu">
+			<Abnormality>The Snow Queen</Abnormality>
+			<CardName>A Kiss</CardName>
+			<AbilityDesc>[Single Ally]
+After winning 2 or more clashes with a single Combat Page, inflict Ice Splinter to the opponent.
+At the end of each Scene, characters with 3 or more Ice Splinters become Immobilized for the next Scene.
+      </AbilityDesc>
+			<FlaborText>The Snow Queen’s kiss froze his heart, and he couldn’t feel the cold anymore.</FlaborText>
+			<Dialogues>
+				<Dialogue ID="1">Only those who know of the scent of roses can bring an end to it all.</Dialogue>
+				<Dialogue ID="2">You must have had a warm heart once.</Dialogue>
+				<Dialogue ID="3">Forgetting the cold, forgetting the memories, and at last…</Dialogue>
+				<Dialogue ID="4">Could a frozen heart that’s become numb to the cold thaw out?</Dialogue>
+				<Dialogue ID="5">Only the fortitudinous shall be able to rescue the frozen.</Dialogue>
+			</Dialogues>
+		</AbnormalityCard>
+		<AbnormalityCard ID="TheSnowQueen_Snow">
+			<Abnormality>The Snow Queen</Abnormality>
+			<CardName>Blizzard</CardName>
+			<AbilityDesc>[Single Ally]
+All characters except the selected librarian become Immobilized for this Scene.
+Next Scene, all enemies are inflicted with 6 Bind.</AbilityDesc>
+			<FlaborText>Spring arrived with blossoming roses. Its warmth melted the Snow Queen’s palace. No one remembered her, sleeping underneath.</FlaborText>
+			<Dialogues>
+				<Dialogue ID="1">No one will realize that I am slumbering in this place.</Dialogue>
+				<Dialogue ID="2">When this snow melts, I will also be forgotten.</Dialogue>
+				<Dialogue ID="3">Is my castle melting away, has the warm spring truly arrived…?</Dialogue>
+				<Dialogue ID="4">The roses’ full bloom signals to me that spring has come.</Dialogue>
+				<Dialogue ID="5">That person must not have wished for any more of this cold.</Dialogue>
+			</Dialogues>
+		</AbnormalityCard>
+		<AbnormalityCard ID="QuietKid_Hammer">
+			<Abnormality>Silent Girl</Abnormality>
+			<CardName>Hammer and Nail</CardName>
+			<AbilityDesc>[Single Ally]
+Upon a successful Pierce attack, inflict 1 'Nail' to the target.
+If a character with 'Nails' is hit by a Blunt attack, they take bonus damage equal to 5x the amount of Nails in them, then all stacks of Nails are removed.</AbilityDesc>
+			<FlaborText>When she drives the nail with her hammer, the crack in the mind will grow too wide, and shatter completely.</FlaborText>
+			<Dialogues>
+				<Dialogue ID="1">I wonder if there’s a crack in your mind that I could hammer a nail in?</Dialogue>
+				<Dialogue ID="2">When a nail drives into a fissure, it gets twice as wide.</Dialogue>
+				<Dialogue ID="3">You should’ve been quick to deal with the baggage in your mind.</Dialogue>
+				<Dialogue ID="4">There’s no repair for a mind that has been cracked.</Dialogue>
+			</Dialogues>
+		</AbnormalityCard>
+		<AbnormalityCard ID="QuietKid_Eyeshine">
+			<Abnormality>Silent Girl</Abnormality>
+			<CardName>Leer</CardName>
+			<AbilityDesc>[Single Ally]
+Deal and take twice as much physical damage.</AbilityDesc>
+			<FlaborText>The girl remains silent. She would simply glare at the core of one’s inner side with her deep eyes.</FlaborText>
+			<Dialogues>
+				<Dialogue ID="1">…</Dialogue>
+				<Dialogue ID="2">……</Dialogue>
+				<Dialogue ID="3">………</Dialogue>
+				<Dialogue ID="4">You’re trembling so much. What makes you so afraid?</Dialogue>
+			</Dialogues>
+		</AbnormalityCard>
+		<AbnormalityCard ID="QuietKid_Guilty">
+			<Abnormality>Silent Girl</Abnormality>
+			<CardName>Guilt</CardName>
+			<AbilityDesc>[Single Ally]
+Reduce incoming Stagger damage by 1-3.
+When hit, the attacker takes Stagger damage equal to the physical damage this character received.</AbilityDesc>
+			<FlaborText>However, when she met a person carrying ‘guilt’ or ‘fear’, the girl revealed the nail and hammer she had been hiding behind her back.</FlaborText>
+			<Dialogues>
+				<Dialogue ID="1">You’re still holding onto those painful memories… You poor fellow.</Dialogue>
+				<Dialogue ID="2">Don’t shove the responsibility on others. The agony is yours to bear.</Dialogue>
+				<Dialogue ID="3">You were just too busy running away, weren’t you?</Dialogue>
+				<Dialogue ID="4">Dear, you seem to be quite… unnerved, aren’t you?</Dialogue>
+			</Dialogues>
+		</AbnormalityCard>
+	</Sephirah>
+</AbnormalityCardsRoot>

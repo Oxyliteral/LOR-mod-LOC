@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PassiveXmlRoot>
+	<Passive ID="10">
+		<Rarity>Unique</Rarity>
+		<Cost>9</Cost>
+		<Script>basic_sephirah_roland</Script>
+		<InnerType>10</InnerType>
+		<CanGivePassive>false</CanGivePassive>
+		<CanReceivePassive>false</CanReceivePassive>
+	</Passive>
+	<Passive ID="9999999">
+		<Cost>0</Cost>
+		<CanReceivePassive>true</CanReceivePassive>
+	</Passive>
+</PassiveXmlRoot>

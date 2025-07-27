@@ -1,0 +1,25 @@
+<EnemyUnitClassRoot>
+	<Enemy ID="1111">
+		<NameID>1111</NameID>
+		<MinHeight>165</MinHeight>
+		<MaxHeight>165</MaxHeight>
+		<BookId>1111</BookId>
+		<DeckId>1111</DeckId>
+	</Enemy>
+	<Enemy ID="1112">
+		<NameID>1112</NameID>
+		<MinHeight>165</MinHeight>
+		<MaxHeight>165</MaxHeight>
+		<BookId>1112</BookId>
+		<DeckId>1112</DeckId>
+	</Enemy>
+	<Enemy ID="210003">
+		<NameID>210003</NameID>
+		<MinHeight>145</MinHeight>
+		<MaxHeight>145</MaxHeight>
+		<BookId>210003</BookId>
+		<DeckId>210003</DeckId>
+		<AiScript>limbus_c1_veteran</AiScript>
+	</Enemy>
+</EnemyUnitClassRoot>
+

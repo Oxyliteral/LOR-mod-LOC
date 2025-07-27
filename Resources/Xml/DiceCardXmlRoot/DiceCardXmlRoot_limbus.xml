@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiceCardXmlRoot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Card ID="1111">
+		<Artwork>Roland3Phase_AngelicaGreatsword</Artwork>
+		<Rarity>Rare</Rarity>
+		<Spec Range="Near" Cost="0"/>
+		<Script>roland_1</Script>
+		<BehaviourList>
+			<Behaviour Min="4" Dice="8" Type="Def" Detail="Evasion" Motion="E" EffectRes="" Script=""/>
+			<Behaviour Min="7" Dice="11" Type="Atk" Detail="Slash" Motion="J" EffectRes="BlackSilence_J" Script="BlackSilence_J" ActionScript="BlackSilence_DualWield1"/>
+			<Behaviour Min="7" Dice="11" Type="Atk" Detail="Slash" Motion="S15" EffectRes="BlackSilence_J" Script="BlackSilence_J" ActionScript="BlackSilence_DualWield2"/>
+			<Behaviour Min="8" Dice="11" Type="Atk" Detail="Slash" Motion="J" EffectRes="BlackSilence_J" Script="BlackSilence_J" ActionScript="BlackSilence_DualWield1"/>
+		</BehaviourList>
+		<Chapter>8</Chapter>
+	</Card>
+	<Card ID="1112">
+		<Artwork>Roland3Phase_CrossAtk</Artwork>
+		<Rarity>Rare</Rarity>
+		<Spec Range="Near" Cost="0"/>
+		<Script>roland_2</Script>
+		<BehaviourList>
+			<Behaviour Min="10" Dice="13" Type="Atk" Detail="Slash" Motion="S4" EffectRes="" Script="" ActionScript="BlackSilence_LongSword"/>
+			<Behaviour Min="5" Dice="7" Type="Def" Detail="Guard" Motion="G" EffectRes="" Script=""/>
+			<Behaviour Min="10" Dice="13" Type="Atk" Detail="Hit" Motion="H" EffectRes="BlackSilence_H" Script=""/>
+		</BehaviourList>
+		<Chapter>8</Chapter>
+	</Card>
+	<Card ID="1113">
+		<Artwork>Roland3Phase_RolandAtk</Artwork>
+		<Rarity>Rare</Rarity>
+		<Spec Range="Near" Cost="0"/>
+		<Script>roland_3</Script>
+		<BehaviourList>
+			<Behaviour Min="7" Dice="11" Type="Atk" Detail="Slash" Motion="S12" EffectRes="FX_PC_RolRang_Slash_Down" Script=""/>
+			<Behaviour Min="7" Dice="11" Type="Atk" Detail="Slash" Motion="S13" EffectRes="FX_PC_RolRang_Slash_UP" Script=""/>
+		</BehaviourList>
+		<Chapter>8</Chapter>
+	</Card>
+	<Card ID="1114">
+		<Artwork>Roland3Phase_AngelicaGreatsword</Artwork>
+		<Rarity>Rare</Rarity>
+		<Spec Range="Near" Cost="0"/>
+		<Script>angelica_1</Script>
+		<BehaviourList>
+			<Behaviour Min="8" Dice="12" Type="Atk" Detail="Penetrate" Motion="Z" EffectRes="BlackSilence_Z" Script=""/>
+			<Behaviour Min="8" Dice="12" Type="Atk" Detail="Penetrate" Motion="Z" EffectRes="BlackSilence_Z" Script=""/>
+			<Behaviour Min="8" Dice="12" Type="Atk" Detail="Penetrate" Motion="Z" EffectRes="BlackSilence_Z" Script=""/>
+		</BehaviourList>
+		<Chapter>8</Chapter>
+	</Card>
+	<Card ID="1115">
+		<Artwork>Roland3Phase_CrossAtk</Artwork>
+		<Rarity>Rare</Rarity>
+		<Spec Range="Near" Cost="0"/>
+		<Script>angelica_2</Script>
+		<BehaviourList>
+			<Behaviour Min="12" Dice="16" Type="Atk" Detail="Hit" Motion="H" EffectRes="" Script=""/>
+			<Behaviour Min="12" Dice="16" Type="Atk" Detail="Hit" Motion="H" EffectRes="" Script=""/>
+		</BehaviourList>
+		<Chapter>8</Chapter>
+	</Card>
+	<Card ID="210011">
+		<Artwork>LCB_Gregor_Swipe</Artwork>
+		<Rarity>Common</Rarity>
+		<Spec Range="Near" Cost="1"/>
+		<Script>unity</Script>
+		<BehaviourList>
+			<Behaviour Min="4" Dice="7" Type="Atk" Detail="Slash" Motion="J" EffectRes="" Script="" ActionScript=""/>
+		</BehaviourList>
+		<Chapter>8</Chapter>
+	</Card>
+	<Card ID="210012">
+		<Artwork>LCB_Gregor_Jag</Artwork>
+		<Rarity>Rare</Rarity>
+		<Spec Range="Near" Cost="2"/>
+		<Script>unity</Script>
+		<BehaviourList>
+			<Behaviour Min="5" Dice="15" Type="Atk" Detail="Penetrate" Motion="Z" EffectRes="" Script="" ActionScript=""/>
+		</BehaviourList>
+		<Chapter>8</Chapter>
+	</Card>
+	<Card ID="210013">
+		<Artwork>LCB_Gregor_ChopUp</Artwork>
+		<Rarity>Rare</Rarity>
+		<Spec Range="Near" Cost="3"/>
+		<Script>unity</Script>
+		<BehaviourList>
+			<Behaviour Min="6" Dice="10" Type="Atk" Detail="Penetrate" Motion="Z" EffectRes="" Script="" ActionScript=""/>
+			<Behaviour Min="6" Dice="10" Type="Atk" Detail="Penetrate" Motion="Z" EffectRes="" Script="" ActionScript=""/>
+		</BehaviourList>
+		<Chapter>8</Chapter>
+	</Card>
+	<Card ID="210021">
+		<Artwork>LCB_Yuri_SoleStrike</Artwork>
+		<Rarity>Common</Rarity>
+		<Spec Range="Near" Cost="1"/>
+		<Script>unity</Script>
+		<BehaviourList>
+			<Behaviour Min="3" Dice="8" Type="Atk" Detail="Slash" Motion="J" EffectRes="" Script="" ActionScript=""/>
+		</BehaviourList>
+		<Chapter>8</Chapter>
+	</Card>
+	<Card ID="210022">
+		<Artwork>LCB_Yuri_DeepCuts</Artwork>
+		<Rarity>Common</Rarity>
+		<Spec Range="Near" Cost="2"/>
+		<Script>unity</Script>
+		<BehaviourList>
+			<Behaviour Min="5" Dice="8" Type="Atk" Detail="Penetrate" Motion="Z" EffectRes="" Script="" ActionScript=""/>
+			<Behaviour Min="5" Dice="8" Type="Atk" Detail="Penetrate" Motion="Z" EffectRes="" Script="" ActionScript=""/>
+			<Behaviour Min="5" Dice="8" Type="Atk" Detail="Penetrate" Motion="Z" EffectRes="" Script="" ActionScript=""/>
+		</BehaviourList>
+		<Chapter>8</Chapter>
+	</Card>
+	<Card ID="210023">
+		<Artwork>LCB_Yuri_OpportunisticSlash</Artwork>
+		<Rarity>Common</Rarity>
+		<Spec Range="Near" Cost="3"/>
+		<Script>unity</Script>
+		<BehaviourList>
+			<Behaviour Min="4" Dice="12" Type="Atk" Detail="Slash" Motion="J" EffectRes="" Script="" ActionScript=""/>
+			<Behaviour Min="4" Dice="12" Type="Atk" Detail="Slash" Motion="J" EffectRes="" Script="" ActionScript=""/>
+		</BehaviourList>
+		<Chapter>8</Chapter>
+	</Card>
+	<Card ID="210031">
+		<Artwork>C1_Veteran_Swipe</Artwork>
+		<Rarity>Rare</Rarity>
+		<Spec Range="Near" Cost="1"/>
+		<Script>unity</Script>
+		<BehaviourList>
+			<Behaviour Min="3" Dice="5" Type="Atk" Detail="Slash" Motion="J" EffectRes="" Script="" ActionScript=""/>
+			<Behaviour Min="3" Dice="5" Type="Atk" Detail="Slash" Motion="H" EffectRes="" Script="" ActionScript=""/>
+		</BehaviourList>
+		<Chapter>8</Chapter>
+	</Card>
+	<Card ID="210032">
+		<Artwork>C1_Veteran_Slice</Artwork>
+		<Rarity>Rare</Rarity>
+		<Spec Range="Near" Cost="1"/>
+		<Script>unity</Script>
+		<BehaviourList>
+			<Behaviour Min="3" Dice="12" Type="Atk" Detail="Slash" Motion="J" EffectRes="" Script="" ActionScript=""/>
+		</BehaviourList>
+		<Chapter>8</Chapter>
+	</Card>
+</DiceCardXmlRoot>
