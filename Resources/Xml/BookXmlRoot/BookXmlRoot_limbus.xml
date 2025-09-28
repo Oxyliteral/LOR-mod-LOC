@@ -38,8 +38,8 @@
 		<Rarity>Unique</Rarity>
 		<CharacterSkin>AngelicaPhantom</CharacterSkin>
 	</Book>
-	<Book ID="210001">
-		<TextId>210001</TextId>
+	<Book ID="810010">
+		<TextId>810010</TextId>
 		<EquipEffect>
 			<HP>100</HP>
 			<Break>100</Break>
@@ -51,16 +51,17 @@
 			<SBResist>Normal</SBResist>
 			<PBResist>Normal</PBResist>
 			<HBResist>Normal</HBResist>
-			<Passive>200000</Passive>
-			<Passive>210001</Passive>
+			<Passive>800000</Passive>
+			<Passive>810010</Passive>
+			<Passive>810011</Passive>
 		</EquipEffect>
 		<Category>DeckFixed</Category>
 		<Rarity>Unique</Rarity>
 		<CharacterSkinType>Custom</CharacterSkinType>
 		<CharacterSkin>LCB Sinner Gregor</CharacterSkin>
 	</Book>
-		<Book ID="210002">
-		<TextId>210002</TextId>
+		<Book ID="810020">
+		<TextId>810020</TextId>
 		<EquipEffect>
 			<HP>100</HP>
 			<Break>100</Break>
@@ -72,16 +73,17 @@
 			<SBResist>Normal</SBResist>
 			<PBResist>Normal</PBResist>
 			<HBResist>Normal</HBResist>
-			<Passive>200000</Passive>
-			<Passive>210002</Passive>
+			<Passive>800000</Passive>
+			<Passive>810020</Passive>
+			<Passive>810021</Passive>
 		</EquipEffect>
 		<Category>DeckFixed</Category>
 		<Rarity>Unique</Rarity>
 		<CharacterSkinType>Custom</CharacterSkinType>
 		<CharacterSkin>LCB Member Yuri</CharacterSkin>
 	</Book>
-	<Book ID="210003">
-		<TextId>210003</TextId>
+	<Book ID="810030">
+		<TextId>810030</TextId>
 		<EquipEffect>
 			<HP>100</HP>
 			<Break>100</Break>
@@ -93,8 +95,8 @@
 			<SBResist>Normal</SBResist>
 			<PBResist>Normal</PBResist>
 			<HBResist>Normal</HBResist>
-			<Passive>200000</Passive>
-			<Passive>210003</Passive>
+			<Passive>800000</Passive>
+			<Passive>810030</Passive>
 		</EquipEffect>
 		<Rarity>Unique</Rarity>
 		<CharacterSkinType>Custom</CharacterSkinType>

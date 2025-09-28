@@ -59,7 +59,7 @@
 		</BehaviourList>
 		<Chapter>8</Chapter>
 	</Card>
-	<Card ID="210011">
+	<Card ID="810011">
 		<Artwork>LCB_Gregor_Swipe</Artwork>
 		<Rarity>Common</Rarity>
 		<Spec Range="Near" Cost="1"/>
@@ -69,7 +69,7 @@
 		</BehaviourList>
 		<Chapter>8</Chapter>
 	</Card>
-	<Card ID="210012">
+	<Card ID="810012">
 		<Artwork>LCB_Gregor_Jag</Artwork>
 		<Rarity>Rare</Rarity>
 		<Spec Range="Near" Cost="2"/>
@@ -78,8 +78,9 @@
 			<Behaviour Min="5" Dice="15" Type="Atk" Detail="Penetrate" Motion="Z" EffectRes="" Script="" ActionScript=""/>
 		</BehaviourList>
 		<Chapter>8</Chapter>
+		<Priority>5</Priority>
 	</Card>
-	<Card ID="210013">
+	<Card ID="810013">
 		<Artwork>LCB_Gregor_ChopUp</Artwork>
 		<Rarity>Rare</Rarity>
 		<Spec Range="Near" Cost="3"/>
@@ -89,8 +90,9 @@
 			<Behaviour Min="6" Dice="10" Type="Atk" Detail="Penetrate" Motion="Z" EffectRes="" Script="" ActionScript=""/>
 		</BehaviourList>
 		<Chapter>8</Chapter>
+		<Priority>10</Priority>
 	</Card>
-	<Card ID="210021">
+	<Card ID="810021">
 		<Artwork>LCB_Yuri_SoleStrike</Artwork>
 		<Rarity>Common</Rarity>
 		<Spec Range="Near" Cost="1"/>
@@ -100,7 +102,7 @@
 		</BehaviourList>
 		<Chapter>8</Chapter>
 	</Card>
-	<Card ID="210022">
+	<Card ID="810022">
 		<Artwork>LCB_Yuri_DeepCuts</Artwork>
 		<Rarity>Common</Rarity>
 		<Spec Range="Near" Cost="2"/>
@@ -111,19 +113,21 @@
 			<Behaviour Min="5" Dice="8" Type="Atk" Detail="Penetrate" Motion="Z" EffectRes="" Script="" ActionScript=""/>
 		</BehaviourList>
 		<Chapter>8</Chapter>
+		<Priority>5</Priority>
 	</Card>
-	<Card ID="210023">
+	<Card ID="810023">
 		<Artwork>LCB_Yuri_OpportunisticSlash</Artwork>
 		<Rarity>Common</Rarity>
 		<Spec Range="Near" Cost="3"/>
 		<Script>unity</Script>
 		<BehaviourList>
-			<Behaviour Min="4" Dice="12" Type="Atk" Detail="Slash" Motion="J" EffectRes="" Script="" ActionScript=""/>
-			<Behaviour Min="4" Dice="12" Type="Atk" Detail="Slash" Motion="J" EffectRes="" Script="" ActionScript=""/>
+			<Behaviour Min="4" Dice="12" Type="Atk" Detail="Slash" Motion="J" EffectRes="LCB_Yuri_S1_1" Script="" ActionScript="LCB_Yuri_S1_1"/>
+			<Behaviour Min="4" Dice="12" Type="Atk" Detail="Slash" Motion="J" EffectRes="LCB_Yuri_S1_1" Script="" ActionScript="LCB_Yuri_S1_1"/>
 		</BehaviourList>
 		<Chapter>8</Chapter>
+		<Priority>10</Priority>
 	</Card>
-	<Card ID="210031">
+	<Card ID="810031">
 		<Artwork>C1_Veteran_Swipe</Artwork>
 		<Rarity>Rare</Rarity>
 		<Spec Range="Near" Cost="1"/>
@@ -133,8 +137,9 @@
 			<Behaviour Min="3" Dice="5" Type="Atk" Detail="Slash" Motion="H" EffectRes="" Script="" ActionScript=""/>
 		</BehaviourList>
 		<Chapter>8</Chapter>
+		<Priority>10</Priority>
 	</Card>
-	<Card ID="210032">
+	<Card ID="810032">
 		<Artwork>C1_Veteran_Slice</Artwork>
 		<Rarity>Rare</Rarity>
 		<Spec Range="Near" Cost="1"/>

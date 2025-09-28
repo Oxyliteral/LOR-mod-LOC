@@ -10,19 +10,34 @@
 		<Cost>8</Cost>
 		<Script>test_angelica</Script>
 	</Passive>
-	<Passive ID="200000">
+	<Passive ID="800000">
 		<Rarity>Unique</Rarity>
 		<Cost>0</Cost>
 		<Script>limbus_rule</Script>
 	</Passive>
-	<Passive ID="210001">
+	<Passive ID="810010">
 		<Rarity>Unique</Rarity>
 		<Cost>0</Cost>
 		<Script>limbus_lcb_gregor</Script>
 	</Passive>
-	<Passive ID="210002">
+	<Passive ID="810011">
 		<Rarity>Unique</Rarity>
 		<Cost>0</Cost>
-		<Script>limbus_lcb_gregor</Script>
+		<Script>limbus_lcb_gregor_passive</Script>
+	</Passive>
+	<Passive ID="810020">
+		<Rarity>Unique</Rarity>
+		<Cost>0</Cost>
+		<Script>limbus_lcb_yuri</Script>
+	</Passive>
+	<Passive ID="810021">
+		<Rarity>Unique</Rarity>
+		<Cost>0</Cost>
+		<Script>limbus_lcb_yuri_passive</Script>
+	</Passive>
+	<Passive ID="810030">
+		<Rarity>Unique</Rarity>
+		<Cost>0</Cost>
+		<Script>limbus_c1_veteran_passive</Script>
 	</Passive>
 </PassiveXmlRoot>

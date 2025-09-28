@@ -10,18 +10,18 @@
 		<Card>1115</Card>
 		<Card>1116</Card>
 	</Deck>
-	<Deck ID="210001">
-		<Card>210011</Card>
-		<Card>210012</Card>
-		<Card>210013</Card>
+	<Deck ID="810010">
+		<Card>810011</Card>
+		<Card>810012</Card>
+		<Card>810013</Card>
 	</Deck>
-	<Deck ID="210002">
-		<Card>210021</Card>
-		<Card>210022</Card>
-		<Card>210023</Card>
+	<Deck ID="810020">
+		<Card>810021</Card>
+		<Card>810022</Card>
+		<Card>810023</Card>
 	</Deck>
-	<Deck ID="210003">
-		<Card>210031</Card>
-		<Card>210032</Card>
+	<Deck ID="810030">
+		<Card>810031</Card>
+		<Card>810032</Card>
 	</Deck>
 </DeckXmlRoot>

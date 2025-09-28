@@ -1,15 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <PassiveDescRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <PassiveDesc ID="200000">
-    <Name>Change of Rules</Name>
-    <Desc>After rolling a die, give all dice on the Page roll value equal to its roll value.</Desc>
-  </PassiveDesc>
-  <PassiveDesc ID="210001">
-    <Name>LCB Sinner Gregor</Name>
-    <Desc>Uncontrollable.</Desc>
-  </PassiveDesc>
-  <PassiveDesc ID="210002">
-    <Name>LCB Member Yuri</Name>
-    <Desc>Uncontrollable.</Desc>
-  </PassiveDesc>
+	<PassiveDesc ID="800000">
+		<Name>Change of Rules</Name>
+		<Desc>After the unit uses a Combat Page, shuffle all copies of it back into the deck at the start of the Scene until all Combat Pages in the deck have been used.
+At the start of the Scene, recover all Light.
+After rolling a die, give all dice on the Combat Page roll value equal to its roll value.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="810010">
+		<Name>LCB Sinner Gregor</Name>
+		<Desc>Uncontrollable.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="810011">
+		<Name>Forced Survival/Gene Code G-0</Name>
+		<Desc>At the start of the Scene, recover 5 HP and Stagger Resist.
+Upon starting Combat, the ally with the least HP recovers 5 HP and Stagger Resist.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="810020">
+		<Name>LCB Member Yuri</Name>
+		<Desc>Uncontrollable.</Desc>
+	</PassiveDesc>
+	<PassiveDesc ID="810021">
+		<Name>Resolution/Backing</Name>
+		<Desc>At the start of the Scene, gain 2 Haste if the unit has 4+ Poise.
+Upon starting Combat, before rolling dice on the first Combat Page slotted by the ally with the highest Aggro, opposing dice lose 1 power.</Desc>
+	</PassiveDesc>
 </PassiveDescRoot>

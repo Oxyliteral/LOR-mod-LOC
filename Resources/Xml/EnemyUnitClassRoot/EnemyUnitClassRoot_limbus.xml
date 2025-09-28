@@ -13,12 +13,12 @@
 		<BookId>1112</BookId>
 		<DeckId>1112</DeckId>
 	</Enemy>
-	<Enemy ID="210003">
-		<NameID>210003</NameID>
+	<Enemy ID="810030">
+		<NameID>810030</NameID>
 		<MinHeight>145</MinHeight>
 		<MaxHeight>145</MaxHeight>
-		<BookId>210003</BookId>
-		<DeckId>210003</DeckId>
+		<BookId>810030</BookId>
+		<DeckId>810030</DeckId>
 		<AiScript>limbus_c1_veteran</AiScript>
 	</Enemy>
 </EnemyUnitClassRoot>
