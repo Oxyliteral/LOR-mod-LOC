@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<PassiveDescRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PassiveDesc ID="10">
+    <Name>A Grade 9 Fixer</Name>
+    <Desc>Assistant Librarians become unavailable. Key Pages' HP and Stagger Resist are multiplied for each Assistant Librarian.</Desc>
+  </PassiveDesc>
+</PassiveDescRoot>

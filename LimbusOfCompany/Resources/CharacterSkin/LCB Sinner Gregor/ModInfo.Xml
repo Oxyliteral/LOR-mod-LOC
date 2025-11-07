@@ -1,0 +1,130 @@
+<ModInfo>
+  <ClothInfo>
+    <Name>LCB Sinner Gregor</Name>
+    <Aim>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="0" pivot_y="-220" />
+      <Head head_x="0" head_y="0" rotation="0" head_enable="False" />
+    </Aim>
+    <Damaged>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="25" pivot_y="-260" />
+      <Head head_x="0" head_y="0" rotation="0" head_enable="False" />
+    </Damaged>
+    <Default>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="-20" pivot_y="-280" />
+      <Head head_x="0" head_y="0" rotation="0" head_enable="False" />
+    </Default>
+    <Evade>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="-40" pivot_y="-280" />
+      <Head head_x="0" head_y="0" rotation="0" head_enable="False" />
+    </Evade>
+    <Fire>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="135" pivot_y="-200" />
+      <Head head_x="0" head_y="0" rotation="0" head_enable="False" />
+    </Fire>
+    <Guard>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="15" pivot_y="-260" />
+      <Head head_x="0" head_y="0" rotation="0" head_enable="False" />
+    </Guard>
+    <Move>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="25" pivot_y="-240" />
+      <Head head_x="0" head_y="0" rotation="0" head_enable="False" />
+    </Move>
+    <Slash>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="125" pivot_y="-300" />
+      <Head head_x="0" head_y="0" rotation="0" head_enable="False" />
+    </Slash>
+    <Penetrate>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="200" pivot_y="-230" />
+      <Head head_x="0" head_y="0" rotation="0" head_enable="False" />
+    </Penetrate>
+    <Hit>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="70" pivot_y="-260" />
+      <Head head_x="0" head_y="0" rotation="0" head_enable="False" />
+    </Hit>
+    <S1>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="-130" pivot_y="-230" />
+      <Head head_x="0" head_y="0" rotation="0" head_enable="False" />
+    </S1>
+    <S2>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="-230" pivot_y="-200" />
+      <Head head_x="0" head_y="0" rotation="0" head_enable="False" />
+    </S2>
+    <S3>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="200" pivot_y="-260" />
+      <Head head_x="0" head_y="0" rotation="0" head_enable="False" />
+    </S3>
+    <S4>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="125" pivot_y="-300" />
+      <Head head_x="0" head_y="0" rotation="0" head_enable="False" />
+    </S4>
+    <S5>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="150" pivot_y="-200" />
+      <Head head_x="0" head_y="0" rotation="0" head_enable="False" />
+    </S5>
+    <S6>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="-25" pivot_y="-240" />
+      <Head head_x="0" head_y="0" rotation="0" head_enable="False" />
+    </S6>
+    <S7>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="0" pivot_y="-225" />
+      <Head head_x="0" head_y="0" rotation="0" head_enable="False" />
+    </S7>
+    <S8>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="225" pivot_y="-225" />
+      <Head head_x="0" head_y="0" rotation="0" head_enable="False" />
+    </S8>
+    <S9>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="200" pivot_y="-200" />
+      <Head head_x="0" head_y="0" rotation="0" head_enable="False" />
+    </S9>
+    <S10>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="200" pivot_y="-240" />
+      <Head head_x="0" head_y="0" rotation="0" head_enable="False" />
+    </S10>
+    <S11>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="0" pivot_y="-225" />
+      <Head head_x="0" head_y="0" rotation="0" head_enable="False" />
+    </S11>
+    <S12>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="-125" pivot_y="-260" />
+      <Head head_x="0" head_y="0" rotation="0" head_enable="False" />
+    </S12>
+    <S13>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="250" pivot_y="-180" />
+      <Head head_x="0" head_y="0" rotation="0" head_enable="False" />
+    </S13>
+    <S14>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="90" pivot_y="-260" />
+      <Head head_x="0" head_y="0" rotation="0" head_enable="False" />
+    </S14>
+    <S15>
+      <Direction>Front</Direction>
+      <Pivot pivot_x="70" pivot_y="-260" />
+      <Head head_x="0" head_y="0" rotation="0" head_enable="False" />
+    </S15>
+  </ClothInfo>
+</ModInfo>

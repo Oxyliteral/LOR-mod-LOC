@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LimbusStageListXml>
+	<LimbusStageClassInfoXml id="9100101">
+		<Wave>
+			<Formation>3</Formation>
+			<Unit>9100101</Unit>
+			<ManagerScript>BloodBath</ManagerScript>
+		</Wave>
+		<Story Condition="Start">999_1_1</Story>
+		<MapInfo>BloodBath</MapInfo>
+		<StageType>Creature</StageType>
+	</LimbusStageClassInfoXml>
+</LimbusStageListXml>
