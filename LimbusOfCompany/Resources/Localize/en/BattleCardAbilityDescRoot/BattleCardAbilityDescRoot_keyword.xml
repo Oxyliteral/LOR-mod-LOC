@@ -9,6 +9,9 @@
 	<BattleCardAbility ID="pw">
 		<Desc>[On Clash Win]</Desc>
 	</BattleCardAbility>
+	<BattleCardAbility ID="use">
+		<Desc>[On Use]</Desc>
+	</BattleCardAbility>
 	<BattleCardAbility ID="inflict">
 		<Desc> Inflict </Desc>
 	</BattleCardAbility>
@@ -18,8 +21,20 @@
 	<BattleCardAbility ID="bleeding">
 		<Desc> {Bleeding}</Desc>
 	</BattleCardAbility>
+	<BattleCardAbility ID="haste">
+		<Desc> {Haste}</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="poise">
+		<Desc> {Poise}</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="rupture">
+		<Desc> {Rupture}</Desc>
+	</BattleCardAbility>
 	<BattleCardAbility ID="self">
 		<Desc> to self</Desc>
+	</BattleCardAbility>
+	<BattleCardAbility ID="target">
+		<Desc></Desc>
 	</BattleCardAbility>
 	<BattleCardAbility ID="now">
 		<Desc> this Scene</Desc>

@@ -1,0 +1,60 @@
+<ModInfo>
+	<ClothInfo>
+		<Name>Golden Apple</Name>
+		<Aim>
+			<Direction>Front</Direction>
+			<Pivot pivot_x="0" pivot_y="-192"/>
+			<Head head_x="0" head_y="0" rotation="0" head_enable="False"/>
+		</Aim>
+		<Damaged>
+			<Direction>Front</Direction>
+			<Pivot pivot_x="0" pivot_y="-192"/>
+			<Head head_x="0" head_y="0" rotation="0" head_enable="False"/>
+		</Damaged>
+		<Default>
+			<Direction>Front</Direction>
+			<Pivot pivot_x="0" pivot_y="-192"/>
+			<Head head_x="0" head_y="0" rotation="0" head_enable="False"/>
+		</Default>
+		<Evade>
+			<Direction>Front</Direction>
+			<Pivot pivot_x="0" pivot_y="-192"/>
+			<Head head_x="0" head_y="0" rotation="0" head_enable="False"/>
+		</Evade>
+		<Fire>
+			<Direction>Front</Direction>
+			<Pivot pivot_x="0" pivot_y="-192"/>
+			<Head head_x="0" head_y="0" rotation="0" head_enable="False"/>
+		</Fire>
+		<Guard>
+			<Direction>Front</Direction>
+			<Pivot pivot_x="0" pivot_y="-192"/>
+			<Head head_x="0" head_y="0" rotation="0" head_enable="False"/>
+		</Guard>
+		<Move>
+			<Direction>Front</Direction>
+			<Pivot pivot_x="0" pivot_y="-192"/>
+			<Head head_x="0" head_y="0" rotation="0" head_enable="False"/>
+		</Move>
+		<Slash>
+			<Direction>Front</Direction>
+			<Pivot pivot_x="0" pivot_y="-192"/>
+			<Head head_x="0" head_y="0" rotation="0" head_enable="False"/>
+		</Slash>
+		<Penetrate>
+			<Direction>Front</Direction>
+			<Pivot pivot_x="0" pivot_y="-192"/>
+			<Head head_x="0" head_y="0" rotation="0" head_enable="False"/>
+		</Penetrate>
+		<Hit>
+			<Direction>Front</Direction>
+			<Pivot pivot_x="0" pivot_y="-192"/>
+			<Head head_x="0" head_y="0" rotation="0" head_enable="False"/>
+		</Hit>
+		<S1>
+			<Direction>Front</Direction>
+			<Pivot pivot_x="0" pivot_y="-192"/>
+			<Head head_x="0" head_y="0" rotation="0" head_enable="False"/>
+		</S1>
+	</ClothInfo>
+</ModInfo>

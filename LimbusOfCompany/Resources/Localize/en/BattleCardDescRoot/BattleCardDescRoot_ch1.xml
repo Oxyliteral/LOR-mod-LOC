@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BattleCardDescRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <cardDescList>
+    <BattleCardDesc ID="1">
+      <LocalizedName>Evade</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="2">
+      <LocalizedName>Light Attack</LocalizedName>
+      <Ability />
+    </BattleCardDesc>
+    <BattleCardDesc ID="3">
+      <LocalizedName>Light Defense</LocalizedName>
+      <Ability />
+    </BattleCardDesc>
+    <BattleCardDesc ID="4">
+      <LocalizedName>Charge and Cover</LocalizedName>
+      <Ability />
+    </BattleCardDesc>
+    <BattleCardDesc ID="5">
+      <LocalizedName>Focused Strikes</LocalizedName>
+      <Ability />
+    </BattleCardDesc>
+
+  </cardDescList>
+</BattleCardDescRoot>

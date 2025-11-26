@@ -4,7 +4,7 @@
     <BattleEffectText ID="bleeding">
       <Name>Bleeding</Name>
       <Desc>Take X Damage every time the character rolls an Offensive die.
-Upon ending a Battle, halve the stack.</Desc>
+Upon ending a Clash, halve the stack.</Desc>
     </BattleEffectText>
     <BattleEffectText ID="Burn">
       <Name>Burn</Name>
@@ -20,7 +20,16 @@ Upon ending a Battle, halve the stack.</Desc>
       <Desc>Increase all Speed values by X for the duration of the Scene.</Desc>
     </BattleEffectText>
 
-	
+	<BattleEffectText ID="poise">
+      <Name>Poise</Name>
+      <Desc>Before giving Damage, deal 100% more Damage and halve the stack if the dice roll was lower than X.
+At the end of the Scene, recover X Stagger Resist.</Desc>
+    </BattleEffectText>
+	<BattleEffectText ID="rupture">
+      <Name>Rupture</Name>
+      <Desc>Take X Stagger Damage (or Damage if the unit is Staggered) upon being attacked.
+Upon ending a Clash, halve the stack.</Desc>
+    </BattleEffectText>
 
 	<BattleEffectText ID="damageup">
       <Name>Damage Up</Name>

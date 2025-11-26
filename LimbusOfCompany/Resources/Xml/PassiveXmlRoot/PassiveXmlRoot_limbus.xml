@@ -25,6 +25,11 @@
 		<Cost>0</Cost>
 		<Script>limbus_lcb_gregor_passive</Script>
 	</Passive>
+	<Passive ID="810012">
+		<Rarity>Unique</Rarity>
+		<Cost>0</Cost>
+		<Script>limbus_lcb_gregor_support</Script>
+	</Passive>
 	<Passive ID="810020">
 		<Rarity>Unique</Rarity>
 		<Cost>0</Cost>
@@ -35,9 +40,19 @@
 		<Cost>0</Cost>
 		<Script>limbus_lcb_yuri_passive</Script>
 	</Passive>
+	<Passive ID="810022">
+		<Rarity>Unique</Rarity>
+		<Cost>0</Cost>
+		<Script>limbus_lcb_yuri_support</Script>
+	</Passive>
 	<Passive ID="810030">
 		<Rarity>Unique</Rarity>
 		<Cost>0</Cost>
 		<Script>limbus_c1_veteran_passive</Script>
+	</Passive>
+	<Passive ID="810040">
+		<Rarity>Unique</Rarity>
+		<Cost>0</Cost>
+		<Script>limbus_golden_apple</Script>
 	</Passive>
 </PassiveXmlRoot>

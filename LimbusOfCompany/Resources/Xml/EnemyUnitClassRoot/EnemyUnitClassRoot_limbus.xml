@@ -15,11 +15,18 @@
 	</Enemy>
 	<Enemy ID="810030">
 		<NameID>810030</NameID>
-		<MinHeight>145</MinHeight>
-		<MaxHeight>145</MaxHeight>
+		<MinHeight>140</MinHeight>
+		<MaxHeight>140</MaxHeight>
 		<BookId>810030</BookId>
 		<DeckId>810030</DeckId>
-		<AiScript>limbus_c1_veteran</AiScript>
+		<AiScript>Limbus_C1_Veteran</AiScript>
+	</Enemy>
+	<Enemy ID="810040">
+		<NameID>810040</NameID>
+		<MinHeight>140</MinHeight>
+		<MaxHeight>140</MaxHeight>
+		<BookId>810040</BookId>
+		<DeckId>810040</DeckId>
 	</Enemy>
 </EnemyUnitClassRoot>
 

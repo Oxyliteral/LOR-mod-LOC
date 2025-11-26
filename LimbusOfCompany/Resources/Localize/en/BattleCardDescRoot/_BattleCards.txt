@@ -10,26 +10,6 @@
       <Ability />
     </BattleCardDesc>
 
-    <BattleCardDesc ID="1">
-      <LocalizedName>Evade</LocalizedName>
-    </BattleCardDesc>
-    <BattleCardDesc ID="2">
-      <LocalizedName>Light Attack</LocalizedName>
-      <Ability />
-    </BattleCardDesc>
-    <BattleCardDesc ID="3">
-      <LocalizedName>Light Defense</LocalizedName>
-      <Ability />
-    </BattleCardDesc>
-    <BattleCardDesc ID="4">
-      <LocalizedName>Charge and Cover</LocalizedName>
-      <Ability />
-    </BattleCardDesc>
-    <BattleCardDesc ID="5">
-      <LocalizedName>Focused Strikes</LocalizedName>
-      <Ability />
-    </BattleCardDesc>
-
     <BattleCardDesc ID="11">
       <LocalizedName>Gut-harvesting</LocalizedName>
       <Ability />

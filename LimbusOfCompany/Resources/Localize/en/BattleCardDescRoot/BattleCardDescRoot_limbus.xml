@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BattleCardDescRoot xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <cardDescList>
+    <BattleCardDesc ID="810011">
+      <LocalizedName>Swipe</LocalizedName>
+    </BattleCardDesc>
+    <BattleCardDesc ID="810012">
+      <LocalizedName>Jag</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="810013">
+      <LocalizedName>Chop Up</LocalizedName>
+	  <Ability>Before dealing Damage, deal 10% more Damage if the target has {Rupture}</Ability>
+    </BattleCardDesc>
+	<BattleCardDesc ID="810021">
+      <LocalizedName>Sole Strike</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="810022">
+      <LocalizedName>Deep Cuts</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="810023">
+      <LocalizedName>Opportunistic Slash</LocalizedName>
+	  <Ability>[On Use] Dice gain +3 Max Value if user took no Damage last Scene</Ability>
+    </BattleCardDesc>
+	<BattleCardDesc ID="810031">
+      <LocalizedName>Swipe</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="810032">
+      <LocalizedName>Slash</LocalizedName>
+    </BattleCardDesc>
+
+  </cardDescList>
+</BattleCardDescRoot>

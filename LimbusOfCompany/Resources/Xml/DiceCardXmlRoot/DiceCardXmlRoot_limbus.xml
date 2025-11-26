@@ -4,7 +4,7 @@
 		<Artwork>Roland3Phase_AngelicaGreatsword</Artwork>
 		<Rarity>Rare</Rarity>
 		<Spec Range="Near" Cost="0"/>
-		<Script>roland_1</Script>
+		<Script></Script>
 		<BehaviourList>
 			<Behaviour Min="4" Dice="8" Type="Def" Detail="Evasion" Motion="E" EffectRes="" Script=""/>
 			<Behaviour Min="7" Dice="11" Type="Atk" Detail="Slash" Motion="J" EffectRes="BlackSilence_J" Script="BlackSilence_J" ActionScript="BlackSilence_DualWield1"/>
@@ -17,7 +17,7 @@
 		<Artwork>Roland3Phase_CrossAtk</Artwork>
 		<Rarity>Rare</Rarity>
 		<Spec Range="Near" Cost="0"/>
-		<Script>roland_2</Script>
+		<Script></Script>
 		<BehaviourList>
 			<Behaviour Min="10" Dice="13" Type="Atk" Detail="Slash" Motion="S4" EffectRes="" Script="" ActionScript="BlackSilence_LongSword"/>
 			<Behaviour Min="5" Dice="7" Type="Def" Detail="Guard" Motion="G" EffectRes="" Script=""/>
@@ -29,7 +29,7 @@
 		<Artwork>Roland3Phase_RolandAtk</Artwork>
 		<Rarity>Rare</Rarity>
 		<Spec Range="Near" Cost="0"/>
-		<Script>roland_3</Script>
+		<Script></Script>
 		<BehaviourList>
 			<Behaviour Min="7" Dice="11" Type="Atk" Detail="Slash" Motion="S12" EffectRes="FX_PC_RolRang_Slash_Down" Script=""/>
 			<Behaviour Min="7" Dice="11" Type="Atk" Detail="Slash" Motion="S13" EffectRes="FX_PC_RolRang_Slash_UP" Script=""/>
@@ -40,7 +40,7 @@
 		<Artwork>Roland3Phase_AngelicaGreatsword</Artwork>
 		<Rarity>Rare</Rarity>
 		<Spec Range="Near" Cost="0"/>
-		<Script>angelica_1</Script>
+		<Script></Script>
 		<BehaviourList>
 			<Behaviour Min="8" Dice="12" Type="Atk" Detail="Penetrate" Motion="Z" EffectRes="BlackSilence_Z" Script=""/>
 			<Behaviour Min="8" Dice="12" Type="Atk" Detail="Penetrate" Motion="Z" EffectRes="BlackSilence_Z" Script=""/>
@@ -52,7 +52,7 @@
 		<Artwork>Roland3Phase_CrossAtk</Artwork>
 		<Rarity>Rare</Rarity>
 		<Spec Range="Near" Cost="0"/>
-		<Script>angelica_2</Script>
+		<Script></Script>
 		<BehaviourList>
 			<Behaviour Min="12" Dice="16" Type="Atk" Detail="Hit" Motion="H" EffectRes="" Script=""/>
 			<Behaviour Min="12" Dice="16" Type="Atk" Detail="Hit" Motion="H" EffectRes="" Script=""/>
@@ -62,20 +62,20 @@
 	<Card ID="810011">
 		<Artwork>LCB_Gregor_Swipe</Artwork>
 		<Rarity>Common</Rarity>
-		<Spec Range="Near" Cost="1"/>
-		<Script>unity</Script>
+		<Spec Range="Near" Affection="Team" Cost="1"/>
+		<Script></Script>
 		<BehaviourList>
-			<Behaviour Min="4" Dice="7" Type="Atk" Detail="Slash" Motion="S4" EffectRes="" Script="" ActionScript="LCB_Gregor_S1_1"/>
+			<Behaviour Min="4" Dice="7" Type="Atk" Detail="Slash" Motion="S4" EffectRes="" Script="auto_atk_inflict_4_rupture_target_now" ActionScript="LCB_Gregor_S1_1"/>
 		</BehaviourList>
 		<Chapter>8</Chapter>
 	</Card>
 	<Card ID="810012">
 		<Artwork>LCB_Gregor_Jag</Artwork>
 		<Rarity>Rare</Rarity>
-		<Spec Range="Near" Cost="2"/>
-		<Script>unity</Script>
+		<Spec Range="Near" Affection="Team" Cost="2"/>
+		<Script>auto_use_give_1_piercefragility_target_now</Script>
 		<BehaviourList>
-			<Behaviour Min="5" Dice="15" Type="Atk" Detail="Penetrate" Motion="S9" EffectRes="" Script="" ActionScript="LCB_Gregor_S2_1"/>
+			<Behaviour Min="5" Dice="15" Type="Atk" Detail="Penetrate" Motion="S9" EffectRes="" Script="auto_atk_inflict_3_rupture_target_now" ActionScript="LCB_Gregor_S2_1"/>
 		</BehaviourList>
 		<Chapter>8</Chapter>
 		<Priority>5</Priority>
@@ -83,11 +83,11 @@
 	<Card ID="810013">
 		<Artwork>LCB_Gregor_ChopUp</Artwork>
 		<Rarity>Rare</Rarity>
-		<Spec Range="Near" Cost="3"/>
-		<Script>unity</Script>
+		<Spec Range="Near" Affection="Team" Cost="3"/>
+		<Script>beforedamage_10p_damage_ifrupture</Script>
 		<BehaviourList>
 			<Behaviour Min="6" Dice="10" Type="Atk" Detail="Penetrate" Motion="S15" EffectRes="" Script="" ActionScript="LCB_Gregor_S3_1"/>
-			<Behaviour Min="6" Dice="10" Type="Atk" Detail="Penetrate" Motion="S9" EffectRes="" Script="" ActionScript="LCB_Gregor_S2_1"/>
+			<Behaviour Min="6" Dice="10" Type="Atk" Detail="Penetrate" Motion="S9" EffectRes="" Script="atk_heal_30p_damage" ActionScript="LCB_Gregor_S2_1"/>
 		</BehaviourList>
 		<Chapter>8</Chapter>
 		<Priority>10</Priority>
@@ -95,22 +95,22 @@
 	<Card ID="810021">
 		<Artwork>LCB_Yuri_SoleStrike</Artwork>
 		<Rarity>Common</Rarity>
-		<Spec Range="Near" Cost="1"/>
-		<Script>unity</Script>
+		<Spec Range="Near" Affection="Team" Cost="1"/>
+		<Script>auto_use_give_2_poise_self_now</Script>
 		<BehaviourList>
-			<Behaviour Min="3" Dice="8" Type="Atk" Detail="Slash" Motion="S4" EffectRes="LCB_Yuri_S1_1" Script="" ActionScript="LCB_Yuri_S1_1"/>
+			<Behaviour Min="3" Dice="8" Type="Atk" Detail="Slash" Motion="S4" EffectRes="LCB_Yuri_S1_1" Script="auto_atk_inflict_2_rupture_target_now" ActionScript="LCB_Yuri_S1_1"/>
 		</BehaviourList>
 		<Chapter>8</Chapter>
 	</Card>
 	<Card ID="810022">
 		<Artwork>LCB_Yuri_DeepCuts</Artwork>
 		<Rarity>Common</Rarity>
-		<Spec Range="Near" Cost="2"/>
-		<Script>unity</Script>
+		<Spec Range="Near" Affection="Team" Cost="2"/>
+		<Script>auto_use_give_1_poise_self</Script>
 		<BehaviourList>
-			<Behaviour Min="5" Dice="8" Type="Atk" Detail="Penetrate" Motion="S4" EffectRes="LCB_Yuri_S2_1" Script="" ActionScript="LCB_Yuri_S2_1"/>
-			<Behaviour Min="5" Dice="8" Type="Atk" Detail="Penetrate" Motion="S10" EffectRes="LCB_Yuri_S1_1" Script="" ActionScript="LCB_Yuri_S1_1"/>
-			<Behaviour Min="5" Dice="8" Type="Atk" Detail="Penetrate" Motion="S12" EffectRes="" Script="" ActionScript="LCB_Yuri_S2_3"/>
+			<Behaviour Min="5" Dice="8" Type="Atk" Detail="Penetrate" Motion="S4" EffectRes="LCB_Yuri_S2_1" Script="auto_atk_give_1_poise_self" ActionScript="LCB_Yuri_S2_1"/>
+			<Behaviour Min="5" Dice="8" Type="Atk" Detail="Penetrate" Motion="S10" EffectRes="LCB_Yuri_S1_1" Script="auto_atk_give_1_poise_self" ActionScript="LCB_Yuri_S1_1"/>
+			<Behaviour Min="5" Dice="8" Type="Atk" Detail="Penetrate" Motion="S12" EffectRes="" Script="auto_atk_give_4_haste_self" ActionScript="LCB_Yuri_S2_3"/>
 		</BehaviourList>
 		<Chapter>8</Chapter>
 		<Priority>5</Priority>
@@ -118,10 +118,10 @@
 	<Card ID="810023">
 		<Artwork>LCB_Yuri_OpportunisticSlash</Artwork>
 		<Rarity>Common</Rarity>
-		<Spec Range="Near" Cost="3"/>
-		<Script>unity</Script>
+		<Spec Range="Near" Affection="Team" Cost="3"/>
+		<Script>use_alldice_3_max_ifnodamageprevious</Script>
 		<BehaviourList>
-			<Behaviour Min="4" Dice="12" Type="Atk" Detail="Slash" Motion="S7" EffectRes="LCB_Yuri_S3_1" Script="" ActionScript="LCB_Yuri_S3_1"/>
+			<Behaviour Min="4" Dice="12" Type="Atk" Detail="Slash" Motion="S7" EffectRes="LCB_Yuri_S3_1" Script="auto_atk_inflict_5_rupture_target_now" ActionScript="LCB_Yuri_S3_1"/>
 			<Behaviour Min="4" Dice="12" Type="Atk" Detail="Slash" Motion="S4" EffectRes="LCB_Yuri_S2_1" Script="" ActionScript="LCB_Yuri_S2_1"/>
 		</BehaviourList>
 		<Chapter>8</Chapter>
@@ -130,8 +130,8 @@
 	<Card ID="810031">
 		<Artwork>C1_Veteran_Swipe</Artwork>
 		<Rarity>Rare</Rarity>
-		<Spec Range="Near" Cost="1"/>
-		<Script>unity</Script>
+		<Spec Range="Near" Affection="Team" Cost="1"/>
+		<Script></Script>
 		<BehaviourList>
 			<Behaviour Min="3" Dice="5" Type="Atk" Detail="Slash" Motion="J" EffectRes="" Script="" ActionScript=""/>
 			<Behaviour Min="3" Dice="5" Type="Atk" Detail="Slash" Motion="H" EffectRes="" Script="" ActionScript=""/>
@@ -139,13 +139,34 @@
 		<Chapter>8</Chapter>
 		<Priority>10</Priority>
 	</Card>
-	<Card ID="810032">
-		<Artwork>C1_Veteran_Slice</Artwork>
+	<Card ID="810041">
+		<Artwork>Golden_Apple_Sprout</Artwork>
 		<Rarity>Rare</Rarity>
 		<Spec Range="Near" Cost="1"/>
-		<Script>unity</Script>
+		<Script></Script>
 		<BehaviourList>
-			<Behaviour Min="3" Dice="12" Type="Atk" Detail="Slash" Motion="J" EffectRes="" Script="" ActionScript=""/>
+			<Behaviour Min="2" Dice="3" Type="Atk" Detail="Penetrate" Motion="Z" EffectRes="" Script="" ActionScript=""/>
+			<Behaviour Min="2" Dice="3" Type="Atk" Detail="Penetrate" Motion="Z" EffectRes="" Script="" ActionScript=""/>
+		</BehaviourList>
+		<Chapter>8</Chapter>
+	</Card>
+	<Card ID="810042">
+		<Artwork>Golden_Apple_GoldenFruit</Artwork>
+		<Rarity>Rare</Rarity>
+		<Spec Range="Near" Cost="1"/>
+		<Script></Script>
+		<BehaviourList>
+			<Behaviour Min="5" Dice="10" Type="Atk" Detail="Hit" Motion="H" EffectRes="" Script="" ActionScript=""/>
+		</BehaviourList>
+		<Chapter>8</Chapter>
+	</Card>
+	<Card ID="810043">
+		<Artwork>Golden_Apple_SolidGold</Artwork>
+		<Rarity>Rare</Rarity>
+		<Spec Range="Near" Cost="1"/>
+		<Script></Script>
+		<BehaviourList>
+			<Behaviour Min="5" Dice="7" Type="Def" Detail="Guard" Motion="G" EffectRes="" Script="" ActionScript=""/>
 		</BehaviourList>
 		<Chapter>8</Chapter>
 	</Card>

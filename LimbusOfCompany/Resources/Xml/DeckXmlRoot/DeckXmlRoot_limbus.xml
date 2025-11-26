@@ -24,4 +24,9 @@
 		<Card>810031</Card>
 		<Card>810032</Card>
 	</Deck>
+	<Deck ID="810040">
+		<Card>810041</Card>
+		<Card>810042</Card>
+		<Card>810043</Card>
+	</Deck>
 </DeckXmlRoot>
