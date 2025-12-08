@@ -28,9 +28,14 @@ At the end of the Scene, recover X Stagger Resist.</Desc>
 	<BattleEffectText ID="rupture">
       <Name>Rupture</Name>
       <Desc>Take X Stagger Damage (or Damage if the unit is Staggered) upon being attacked.
-Upon ending a Clash, halve the stack.</Desc>
+Upon ending a Battle, halve the stack.</Desc>
     </BattleEffectText>
 
+	<BattleEffectText ID="goldensheen">
+      <Name>Golden Sheen</Name>
+      <Desc>At the start of the Scene, recover 10 HP for each stack if not Staggered.</Desc>
+    </BattleEffectText>
+	
 	<BattleEffectText ID="damageup">
       <Name>Damage Up</Name>
       <Desc>Offensive dice the character rolls deal +X Damage.

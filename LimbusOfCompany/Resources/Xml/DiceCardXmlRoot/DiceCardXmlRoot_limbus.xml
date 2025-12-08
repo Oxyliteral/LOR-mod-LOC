@@ -170,4 +170,32 @@
 		</BehaviourList>
 		<Chapter>8</Chapter>
 	</Card>
+	<Card ID="810044">
+		<Artwork>Limbus_Investigate</Artwork>
+		<Rarity>Rare</Rarity>
+		<Spec Range="Near" Cost="0"/>
+		<Script></Script>
+		<BehaviourList></BehaviourList>
+		<Chapter>8</Chapter>
+	</Card>
+	<Card ID="810045">
+		<Artwork>Limbus_Investigate</Artwork>
+		<Rarity>Rare</Rarity>
+		<Spec Range="Near" Cost="0"/>
+		<Script>limbus_golden_apple_investigate_recover</Script>
+		<BehaviourList>
+			<Behaviour Min="1" Dice="1" Type="Def" Detail="Guard" Motion="G" EffectRes="" Script="" ActionScript=""/>
+		</BehaviourList>
+		<Chapter>8</Chapter>
+	</Card>
+	<Card ID="810046">
+		<Artwork>Limbus_Investigate</Artwork>
+		<Rarity>Rare</Rarity>
+		<Spec Range="Near" Cost="0"/>
+		<Script></Script>
+		<BehaviourList>
+			<Behaviour Min="999" Dice="999" Type="Atk" Detail="Penetrate" Motion="S3" EffectRes="" Script="atk_kill_recover_all_break" ActionScript="Limbus_Golden_Apple_Transform"/>
+		</BehaviourList>
+		<Chapter>8</Chapter>
+	</Card>
 </DiceCardXmlRoot>

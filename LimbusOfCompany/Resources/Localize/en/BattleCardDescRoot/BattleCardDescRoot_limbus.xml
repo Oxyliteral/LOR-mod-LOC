@@ -27,6 +27,25 @@
 	<BattleCardDesc ID="810032">
       <LocalizedName>Slash</LocalizedName>
     </BattleCardDesc>
+	<BattleCardDesc ID="810041">
+      <LocalizedName>Sprout</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="810042">
+      <LocalizedName>Golden Fruit</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="810043">
+      <LocalizedName>Solid Gold</LocalizedName>
+    </BattleCardDesc>
+	<BattleCardDesc ID="810044">
+      <LocalizedName>Investigate</LocalizedName>
+	  <Ability>[MAYBE THE GOLDEN BOUGH LIES INSIDE THE APPLE?]
 
+The apple’s body broke, and the raging fruit still grew.
+
+Could the Golden Bough really be in there?
+
+“I’ll go check it out!”
+Yuri said to the others.</Ability>
+    </BattleCardDesc>
   </cardDescList>
 </BattleCardDescRoot>

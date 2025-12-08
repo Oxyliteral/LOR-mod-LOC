@@ -52,6 +52,7 @@
 			<PBResist>Endure</PBResist>
 			<HBResist>Weak</HBResist>
 			<Passive>800000</Passive>
+			<Passive>800010</Passive>
 			<Passive>810010</Passive>
 			<Passive>810011</Passive>
 			<Passive>810012</Passive>
@@ -81,6 +82,7 @@
 			<PBResist>Normal</PBResist>
 			<HBResist>Weak</HBResist>
 			<Passive>800000</Passive>
+			<Passive>800010</Passive>
 			<Passive>810020</Passive>
 			<Passive>810021</Passive>
 			<Passive>810022</Passive>
@@ -111,6 +113,7 @@
 			<PBResist>Normal</PBResist>
 			<HBResist>Normal</HBResist>
 			<Passive>800000</Passive>
+			<Passive>800010</Passive>
 			<Passive>810030</Passive>
 		</EquipEffect>
 		<Rarity>Unique</Rarity>
@@ -118,7 +121,7 @@
 		<CharacterSkin>C1 Veteran</CharacterSkin>
 	</Book>
 	<Book ID="810040">
-		<TextId>810030</TextId>
+		<TextId>810040</TextId>
 		<EquipEffect>
 			<HP>488</HP>
 			<Break>244</Break>
@@ -132,9 +135,33 @@
 			<HBResist>Weak</HBResist>
 			<Passive>800000</Passive>
 			<Passive>810040</Passive>
+			<Passive>810041</Passive>
+			<Passive>810042</Passive>
 		</EquipEffect>
 		<Rarity>Unique</Rarity>
 		<CharacterSkinType>Custom</CharacterSkinType>
 		<CharacterSkin>Golden Apple</CharacterSkin>
+	</Book>
+	<Book ID="810050">
+		<TextId>810050</TextId>
+		<EquipEffect>
+			<HP>488</HP>
+			<Break>244</Break>
+			<SpeedMin>1</SpeedMin>
+			<Speed>4</Speed>
+			<SResist>Endure</SResist>
+			<PResist>Normal</PResist>
+			<HResist>Weak</HResist>
+			<SBResist>Endure</SBResist>
+			<PBResist>Normal</PBResist>
+			<HBResist>Weak</HBResist>
+			<Passive>800000</Passive>
+			<Passive>810040</Passive>
+			<Passive>810041</Passive>
+			<Passive>810042</Passive>
+		</EquipEffect>
+		<Rarity>Unique</Rarity>
+		<CharacterSkinType>Custom</CharacterSkinType>
+		<CharacterSkin>False Apple</CharacterSkin>
 	</Book>
 </BookXmlRoot>

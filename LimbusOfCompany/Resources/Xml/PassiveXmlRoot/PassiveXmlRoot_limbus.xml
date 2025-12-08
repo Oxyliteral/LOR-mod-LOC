@@ -15,6 +15,11 @@
 		<Cost>0</Cost>
 		<Script>limbus_rule</Script>
 	</Passive>
+	<Passive ID="800010">
+		<Rarity>Unique</Rarity>
+		<Cost>0</Cost>
+		<Script>limbus_rule_speeddiceslot</Script>
+	</Passive>
 	<Passive ID="810010">
 		<Rarity>Unique</Rarity>
 		<Cost>0</Cost>
@@ -53,6 +58,18 @@
 	<Passive ID="810040">
 		<Rarity>Unique</Rarity>
 		<Cost>0</Cost>
+		<IsHide>true</IsHide>
 		<Script>limbus_golden_apple</Script>
+	</Passive>
+	<Passive ID="810041">
+		<Rarity>Unique</Rarity>
+		<Cost>0</Cost>
+		<Script>limbus_golden_apple_passive</Script>
+	</Passive>
+	<Passive ID="810042">
+		<Rarity>Unique</Rarity>
+		<Cost>0</Cost>
+		<IsHide>true</IsHide>
+		<Script>limbus_golden_apple_boss</Script>
 	</Passive>
 </PassiveXmlRoot>

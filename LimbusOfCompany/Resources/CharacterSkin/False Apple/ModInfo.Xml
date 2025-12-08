@@ -1,6 +1,6 @@
 <ModInfo>
 	<ClothInfo>
-		<Name>Golden Apple</Name>
+		<Name>False Apple</Name>
 		<Aim>
 			<Direction>Front</Direction>
 			<Pivot pivot_x="0" pivot_y="-192"/>
@@ -61,10 +61,10 @@
 			<Pivot pivot_x="0" pivot_y="-192"/>
 			<Head head_x="0" head_y="0" rotation="0" head_enable="False"/>
 		</S2>
-		<S3>
+		<Special>
 			<Direction>Front</Direction>
 			<Pivot pivot_x="0" pivot_y="-192"/>
 			<Head head_x="0" head_y="0" rotation="0" head_enable="False"/>
-		</S3>
+		</Special>
 	</ClothInfo>
 </ModInfo>

@@ -28,5 +28,12 @@
 		<BookId>810040</BookId>
 		<DeckId>810040</DeckId>
 	</Enemy>
+	<Enemy ID="810050">
+		<NameID>810050</NameID>
+		<MinHeight>140</MinHeight>
+		<MaxHeight>140</MaxHeight>
+		<BookId>810050</BookId>
+		<DeckId>810050</DeckId>
+	</Enemy>
 </EnemyUnitClassRoot>
 

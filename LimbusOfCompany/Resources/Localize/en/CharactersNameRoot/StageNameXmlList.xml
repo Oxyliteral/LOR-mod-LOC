@@ -133,6 +133,8 @@
   <Name ID="70008">The Blood-red Night</Name>
   <Name ID="70009">Yesterday’s Promise</Name>
   <Name ID="70010">The Blue Reverberation</Name>
+  
+  
 
   <Name ID="610000">The Reverberation Ensemble</Name>
   <Name ID="60003">The Black Silence</Name>
@@ -154,5 +156,10 @@
   <Name ID="100017">Mirae Life Insurance</Name>
   <Name ID="100018">Leaflet Workshop</Name>
   <Name ID="100019">Bayard</Name>
+  
+  
+  <Name ID="810100">The Outcast</Name>
+
+
 
 </CharactersNameRoot>
